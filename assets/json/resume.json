@@ -86,7 +86,7 @@
       "name": "George Mason University",
       "position": "Research Assistant",
       "url": "https://gmu.edu",
-      "startDate": "Aug, 2024",
+      "startDate": "2024-08",
       "endDate": "Present",
       "summary": "Researching NLP topics such as Event Extraction and Prompt Engineering under the guidance of Prof. Ziyu Yao."
     },
@@ -94,15 +94,15 @@
       "name": "George Mason University",
       "position": "Summer Research Internship",
       "url": "https://gmu.edu",
-      "startDate": "Jun, 2023",
-      "endDate": "Aug, 2024",
+      "startDate": "2024-06",
+      "endDate": "2024-08",
       "summary": "Working with Prof. Ziyu Yao in the domain of Information Extraction, more briefly explored generalization in Event Extraction through instruction-tuned LLMs."
     },
     {
       "name": "Highradius Technologies Private Limited",
       "position": "Data Scientist",
-      "startDate": "Sep, 2020",
-      "endDate": "Aug, 2023",
+      "startDate": "2020-09",
+      "endDate": "2023-08",
       "location": "Odisha, India",
       "summary": "Implemented and deployed machine learning models for Fortune 500 companies, enhancing operational efficiency and predictive accuracy.",
       "highlights": [
@@ -116,8 +116,8 @@
     {
       "name": "Indian Institute of Technology, Kharagpur",
       "position": "Research Intern",
-      "startDate": "Jun, 2018",
-      "endDate": "Jun, 2018",
+      "startDate": "2018-06",
+      "endDate": "2018-06",
       "location": "West Bengal, India",
       "summary": "Developed BCH error correction codes and tested OpenSSL authentication protocols.",
       "highlights": [
@@ -135,7 +135,7 @@
     },
     {
       "title": "Winner, Smart India Hackathon: National Level Hackathon by Govt. of INDIA",
-      "date": "May, 2019",
+      "date": "2019-03",
       "awarder": "Government of INDIA",
       "summary": "Recognized for developing an algorithmic solution to alleviate congestion on throughout all routes within a city through dynamic allocation of buses."
     }
@@ -185,10 +185,9 @@
   ],
   "certificates": [
     {
-      "title": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
-      "date": "Aug, 2024",
-      "awarder": "Oracle",
-      "summary": "Certification in Generative AI demonstrating expertise in Oracle's Cloud Infrastructure."
+      "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+      "date": "2024-08",
+      "issuer": "Oracle"
     }
   ],
   "languages": [
