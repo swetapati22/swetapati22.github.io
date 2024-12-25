@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’m thrilled to share that I’ve begun my **Master’s in Computer Science, specializing in **Machine Learning** at **George Mason University**!
+I’m thrilled to share that I’ve begun my **Master’s in Computer Science, specializing in Machine Learning** at **George Mason University**!
