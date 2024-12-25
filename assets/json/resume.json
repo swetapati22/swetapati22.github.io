@@ -47,7 +47,7 @@
   ],
   "projects": [
     {
-      "name": "Event Extraction",
+      "name": "Research Project: Event Extraction",
       "advisor": "Prof. Ziyu Yao",
       "year": "2024",
       "status": "Ongoing",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "name": "Prompt Optimization",
+      "name": "Research Project: Prompt Optimization",
       "advisor": "Prof. Ziyu Yao",
       "year": "2024",
       "status": "Ongoing",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "Dynamic Bus Routing System",
+      "name": "Academic Project: Dynamic Bus Routing System",
       "achievement": "Winner at Smart India Hackathon",
       "summary": "Developed an algorithmic solution to alleviate congestion on specific routes through dynamic allocation of buses.",
       "highlights": [
