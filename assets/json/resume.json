@@ -27,12 +27,41 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "George Mason University",
+      "location": "Fairfax, VA",
+      "url": "https://gmu.edu",
+      "area": "Computer Science",
+      "studyType": "Masters",
+      "startDate": "2023-08",
+      "endDate": "2025-05",
+      "score": "3.89"
+    },
+    {
+      "institution": "Kalinga Institute of Industrial Technology",
+      "location": "Odisha, India",
+      "area": "Computer Science",
+      "studyType": "Bachelors",
+      "startDate": "2016-05",
+      "endDate": "2020-05",
+      "score": "3.60"
+    }
+  ],
   "work": [
     {
       "name": "George Mason University",
       "position": "Research Assistant",
       "url": "https://gmu.edu",
       "startDate": "2024-06",
+      "summary": "Researching NLP topics such as Event Extraction and Prompt Engineering under the guidance of Prof. Ziyu Yao."
+    },
+    {
+      "name": "George Mason University",
+      "position": "Summer Research Internship",
+      "url": "https://gmu.edu",
+      "startDate": "2024-06",
+      "endDate": "2023-08",
       "summary": "Researching NLP topics such as Event Extraction and Prompt Engineering under the guidance of Prof. Ziyu Yao."
     },
     {
@@ -59,34 +88,22 @@
       ]
     }
   ],
-  "education": [
+  "research and projects": [
     {
-      "institution": "George Mason University",
-      "location": "Fairfax, VA",
-      "url": "https://gmu.edu",
-      "area": "Computer Science",
-      "studyType": "Masters",
-      "startDate": "2023-08",
-      "endDate": "2025-05",
-      "score": "3.89"
+      "name": "Event Extraction",
+      "summary": "Enhancing event extraction with instruction-tuned LLMs to improve domain generalization.",
+      "highlights": [
+        "Developed comprehensive guidelines for 13 datasets and improved F1-score by 8%.",
+        "Engineered preprocessing steps to optimize evaluation."
+      ]
     },
     {
-      "institution": "Kalinga Institute of Industrial Technology",
-      "location": "Odisha, India",
-      "area": "Computer Science",
-      "studyType": "Bachelors",
-      "startDate": "2016-05",
-      "endDate": "2020-05",
-      "score": "3.60"
+      "name": "Prompt Optimization",
+      "summary": "Explored zero-shot, few-shot, CoT, and optimization techniques for LLM prompts.",
+      "highlights": ["Delivered actionable and optimized inputs for improved LLM performance."]
     }
   ],
   "awards": [
-    {
-      "title": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
-      "date": "2024-08",
-      "awarder": "Oracle",
-      "summary": "Certification in Generative AI demonstrating expertise in Oracle's Cloud Infrastructure."
-    },
     {
       "title": "Best Performer of the Team",
       "date": "2020-2021",
@@ -126,6 +143,14 @@
       "keywords": ["Data Visualization", "Predictive Modeling", "ML Ops", "HPC"]
     }
   ],
+  "certificates": [
+    {
+      "title": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+      "date": "2024-08",
+      "awarder": "Oracle",
+      "summary": "Certification in Generative AI demonstrating expertise in Oracle's Cloud Infrastructure."
+    }
+  ],
   "languages": [
     {
       "language": "English",
@@ -134,28 +159,6 @@
     {
       "language": "Hindi",
       "fluency": "Native Speaker"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
-      "date": "2024-08",
-      "issuer": "Oracle"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Event Extraction",
-      "summary": "Enhancing event extraction with instruction-tuned LLMs to improve domain generalization.",
-      "highlights": [
-        "Developed comprehensive guidelines for 13 datasets and improved F1-score by 8%.",
-        "Engineered preprocessing steps to optimize evaluation."
-      ]
-    },
-    {
-      "name": "Prompt Optimization",
-      "summary": "Explored zero-shot, few-shot, CoT, and optimization techniques for LLM prompts.",
-      "highlights": ["Delivered actionable and optimized inputs for improved LLM performance."]
     }
   ]
 }
