@@ -32,7 +32,7 @@
       "location": "Fairfax, VA",
       "url": "https://gmu.edu",
       "studyType": "Master's in Compuer Science with Specialization in Machine Learning",
-      "startDate": "August, 2023",
+      "startDate": "Aug, 2023",
       "endDate": "May, 2025",
       "score": "3.93"
     },
@@ -41,11 +41,11 @@
       "location": "Odisha, India",
       "studyType": "Bachelor's in Computer Science and Engineering",
       "startDate": "May, 2016",
-      "endDate": "May, 2025",
+      "endDate": "May, 2020",
       "score": "3.60"
     }
   ],
-  "research": [
+  "research and projects": [
     {
       "name": "Event Extraction",
       "advisor": "Prof. Ziyu Yao",
@@ -70,9 +70,7 @@
         "Explored Monte Carlo Tree Search-based and fine-tuning approaches to prompt optimization on 3 datasets.",
         "Aiming to deliver clearer, more actionable inputs that improve the overall functionality and reliability of LLMs in identifying and classifying events."
       ]
-    }
-  ],
-  "projects": [
+    },
     {
       "name": "Dynamic Bus Routing System",
       "achievement": "Winner at Smart India Hackathon",
@@ -88,7 +86,7 @@
       "name": "George Mason University",
       "position": "Research Assistant",
       "url": "https://gmu.edu",
-      "startDate": "2024-08",
+      "startDate": "Aug, 2024",
       "endDate": "Present",
       "summary": "Researching NLP topics such as Event Extraction and Prompt Engineering under the guidance of Prof. Ziyu Yao."
     },
@@ -96,15 +94,15 @@
       "name": "George Mason University",
       "position": "Summer Research Internship",
       "url": "https://gmu.edu",
-      "startDate": "2024-06",
-      "endDate": "2024-08",
+      "startDate": "Jun, 2023",
+      "endDate": "Aug, 2024",
       "summary": "Working with Prof. Ziyu Yao in the domain of Information Extraction, more briefly explored generalization in Event Extraction through instruction-tuned LLMs."
     },
     {
       "name": "Highradius Technologies Private Limited",
       "position": "Data Scientist",
-      "startDate": "2020-09",
-      "endDate": "2023-08",
+      "startDate": "Sep, 2020",
+      "endDate": "Aug, 2023",
       "location": "Odisha, India",
       "summary": "Implemented and deployed machine learning models for Fortune 500 companies, enhancing operational efficiency and predictive accuracy.",
       "highlights": [
@@ -118,8 +116,8 @@
     {
       "name": "Indian Institute of Technology, Kharagpur",
       "position": "Research Intern",
-      "startDate": "2018-06",
-      "endDate": "2018-06",
+      "startDate": "Jun, 2018",
+      "endDate": "Jun, 2018",
       "location": "West Bengal, India",
       "summary": "Developed BCH error correction codes and tested OpenSSL authentication protocols.",
       "highlights": [
@@ -137,7 +135,7 @@
     },
     {
       "title": "Winner, Smart India Hackathon: National Level Hackathon by Govt. of INDIA",
-      "date": "2019-03",
+      "date": "May, 2019",
       "awarder": "Government of INDIA",
       "summary": "Recognized for developing an algorithmic solution to alleviate congestion on throughout all routes within a city through dynamic allocation of buses."
     }
@@ -188,7 +186,7 @@
   "certificates": [
     {
       "title": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
-      "date": "2024-08",
+      "date": "Aug, 2024",
       "awarder": "Oracle",
       "summary": "Certification in Generative AI demonstrating expertise in Oracle's Cloud Infrastructure."
     }
