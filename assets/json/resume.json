@@ -92,7 +92,7 @@
     },
     {
       "name": "George Mason University",
-      "position": "Summer Research Internship",
+      "position": "Summer Research Intern",
       "url": "https://gmu.edu",
       "startDate": "2024-06",
       "endDate": "2024-08",
@@ -124,20 +124,6 @@
         "Implemented BCH error correction code and compared existing test suites in OpenSSL with the proposed authentication protocol.",
         "Published a research paper titled 'An OpenSSL Extension for PUF-based Authentication' in IEEE DSP 2018."
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Best Performer of the Team",
-      "date": "2020-2021",
-      "awarder": "Highradius Technologies",
-      "summary": "Awarded for exceptional contributions across three quarters."
-    },
-    {
-      "title": "Winner, Smart India Hackathon: National Level Hackathon by Govt. of INDIA",
-      "date": "2019-03",
-      "awarder": "Government of INDIA",
-      "summary": "Recognized for developing an algorithmic solution to alleviate congestion on throughout all routes within a city through dynamic allocation of buses."
     }
   ],
   "skills": [
@@ -188,6 +174,20 @@
       "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
       "date": "2024-08",
       "issuer": "Oracle"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Performer of the Team",
+      "date": "2020-2021",
+      "awarder": "Highradius Technologies",
+      "summary": "Awarded for exceptional contributions across three quarters."
+    },
+    {
+      "title": "Winner, Smart India Hackathon: National Level Hackathon by Govt. of INDIA",
+      "date": "2019-03",
+      "awarder": "Government of INDIA",
+      "summary": "Recognized for developing an algorithmic solution to alleviate congestion on throughout all routes within a city through dynamic allocation of buses."
     }
   ],
   "languages": [
