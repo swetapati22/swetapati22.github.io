@@ -6,7 +6,7 @@ subtitle: <a href='mailto:spati@gmu.edu'>spati@gmu.edu</a>. Fairfax, VA
 
 profile:
   align: right
-  image: Sweta.png
+  image: sweta_close.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Address: Fairfax, VA, 22031</p>
