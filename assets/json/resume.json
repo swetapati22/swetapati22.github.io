@@ -76,7 +76,7 @@
       "url": "https://gmu.edu",
       "startDate": "2024-08",
       "endDate": "Present",
-      "summary": [
+      "highlights": [
         "Improved F1-score by 10% in EE tasks by synthesizing structured guidelines for 500+ events and 4000+ arguments, and fine-tuning LLaMA-3.1 8B using LoRA and regularization techniques.",
         "Designed a custom evaluation script to ensure robust benchmarking for Event Argument Extraction (EAE), Event Detection (ED), and End-to-End (E2E) EE tasks."
       ]
@@ -87,7 +87,7 @@
       "url": "https://gmu.edu",
       "startDate": "2024-06",
       "endDate": "2024-08",
-      "summary": [
+      "highlights": [
       "Working with Prof. Ziyu Yao in the domain of Information Extraction, more briefly explored generalization in Event Extraction tasks through instruction-tuned LLMs aided by diverse set of annotation guidelines.",
       "Reduced hallucinations and enhanced evaluation consistency by developing a preprocessing pipeline that converts unstructured text into structured Python code prompts.",
       "Enhanced multi-domain generalization by constructing an ontology for event and argument identification, applicable to 3 EE tasks across 8 domains.",
