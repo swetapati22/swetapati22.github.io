@@ -6,7 +6,7 @@ subtitle: <a href='mailto:spati@gmu.edu'>spati@gmu.edu</a>. Fairfax, VA
 
 profile:
   align: right
-  image: SwetaPati.jpg
+  image: sweta_pati_close.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Address: 9411 Lee Hwy, Fairfax, VA, 22031</p>
@@ -21,7 +21,6 @@ Hello! I’m **Sweta Pati**, a dedicated **Master’s student in Computer Sciene
 With key interests in **Machine Learning**, **Data Science and Analytics**, **Generative AI**, and **AI-Driven Automation**, I excel at transforming unstructured data into actionable insights.
 
 **Highlights of my work include:**  
-- I have **experience in developing advanced models for Event Extraction (EE)** within the domain of Information Extraction by **leveraging instruction-tuned large language models (LLMs)** under the guidance of  Prof. Ziyu Yao. I designed a novel framework to transform natural language instructions into structured Python-based code prompts and fine-tuned LLaMA 3.1 model, enhancing model interpretability and improved generalization across multiple domains within the EE tasks.  
-- Prior to pursuing my Master’s, I gained 3 years of professional experience as a **Data Scientist** at **Highradius**. My work involved **implementing ML models and deploying end-to-end ML pipelines** for complex regression and imbalance classification use cases for Fortune 500 companies such as Nestle, Kraft Heinz, and Clorox enhancing their operational efficiency and automating workflows for greater scalability.
+- I have **experience in instruction-tuning large language models (LLMs) for Event Extraction (EE) tasks** within the domain of Information Extraction by under the guidance of  Prof. Ziyu Yao. 
 
-Beyond academics and professional pursuits, I find joy in exploring the outdoors, whether hiking through scenic trails or simply connecting with nature. I also enjoy immersing myself in captivating books and keep myself updated through thought-provoking tech innovations.
+- Prior to my Master’s, I gained 3 years of professional experience as a **Data Scientist** at **Highradius**. My work involved **implementing ML models and deploying end-to-end ML pipelines** for complex regression and imbalance classification use cases for Fortune 500 companies such as Nestle, Kraft Heinz, and Clorox enhancing their operational efficiency and automating workflows for greater scalability.
