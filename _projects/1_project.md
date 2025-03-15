@@ -59,21 +59,21 @@ To ensure a structured analysis, we break down the workflow into **four key stag
     </div>
 </div>
 
-### ** Data Preparation**
+### **Data Preparation**
 - Loads raw tweets, paragraphs, and articles.
 - Cleans and tokenizes text using **RoBERTa** (for paragraphs) and **Longformer** (for articles).
 - Splits into **training, validation, and test sets**.
 
-### ** Model Training**
+### **Model Training**
 - **Fine-tunes transformers-based models** on the dataset.
 - Implements **Adaptive Learning Rate Scheduling** with **AdamW optimizer**.
 - Trains using a **classification loss function**.
 
-### ** Model Evaluation**
+### **Model Evaluation**
 - Evaluates on **Precision, Recall, and F1-score**.
 - Compares against **published results**.
 
-### ** Error Analysis & Interpretability**
+### **Error Analysis & Interpretability**
 - **Identifies misclassified samples** to analyze weaknesses.
 - Generates **histograms** to visualize text characteristics.
 - **Improves generalizability** via error correction.
