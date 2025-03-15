@@ -1,81 +1,179 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Implementing Authentic Counterhate Arguments
+description: Reproducing and extending the EMNLP '23 study on counterhate arguments for online hate speech.
+img: assets/img/counter_hate_project1.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## 🔍 Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In this project, we **replicate and extend** the [EMNLP 2023](https://aclanthology.org/2023.emnlp-main.855.pdf) paper **"Finding Authentic Counterhate Arguments: A Case Study with Public Figures"** by **Albanyan, Hassan, and Blanco**. This study focuses on identifying **authentic counterhate arguments** that effectively counter online **hate speech** targeted at specific individuals.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This work is part of the **"Reproducibility Challenges in Research Papers"** initiative and has been carefully documented in our [Reproducibility Study Report](assets/pdf/Counterhate_Arguments_Report.pdf) by **Sweta Pati and Swabhi Papneja**.
+
+Inorder to have a better understanding of our work please go through a carefully prepared [Presentation](assets/pdf/Counterhate_Arguments.pdf).
+
+---
+
+## 🛠 Project Objective
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/objective_box.png" title="Project Objective" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+**Objective:** To identify **authentic counterhate arguments** that directly refute the claims made in **hateful tweets** towards specific individuals. Counterhate responses should be **logical, fact-based, and effective** in deconstructing hateful rhetoric.
+
+### What is Hate Speech?  
+> "_A hateful speech, as per Twitter guidelines, includes any implicit or explicit tweet that attacks an individual’s **gender, religion, race, ideology, or social class**._"
+
+### What is Counterhate?  
+> "_Counterhate is a direct response that refutes hate speech. An **authentic counterhate argument** is a **fact-based** response that includes logical reasoning, testimonials, or statistical evidence._"
+
+---
+
+## 📌 Dataset Overview
+
+Our dataset is derived from **hateful tweets** directed at **50 individuals**. It includes:
+- **250 hateful tweets**
+- **2500 articles**
+- **54,816 paragraphs** (collected as supporting evidence)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/counter_hate_dataset_stats.png" title="Dataset Composition" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
+---
+
+## 📖 Approach & Methodology
+
+To ensure a structured analysis, we break down the workflow into **four key stages**:
+
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/counter_hate_approach.png" title="Methodology Workflow" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### **1️⃣ Data Preparation**
+- Loads raw tweets, paragraphs, and articles.
+- Cleans and tokenizes text using **RoBERTa** (for paragraphs) and **Longformer** (for articles).
+- Splits into **training, validation, and test sets**.
+
+### **2️⃣ Model Training**
+- **Fine-tunes transformers-based models** on the dataset.
+- Implements **Adaptive Learning Rate Scheduling** with **AdamW optimizer**.
+- Trains using a **classification loss function**.
+
+### **3️⃣ Model Evaluation**
+- Evaluates on **Precision, Recall, and F1-score**.
+- Compares against **published results**.
+
+### **4️⃣ Error Analysis & Interpretability**
+- **Identifies misclassified samples** to analyze weaknesses.
+- Generates **histograms** to visualize text characteristics.
+- **Improves generalizability** via error correction.
+
+---
+
+## 📊 Experiments & Results
+
+### **Dataset Splitting & Model Performance**
+The dataset is divided into **article-level** and **paragraph-level** experiments. We compare our model’s **precision, recall, and F1-score** against the original paper.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Counterhate_Arguments_result.png" title="Results Table" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Our model achieves **comparable performance** to the original implementation.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+## 🚀 How to Run the Project
+
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/swetapati22/Counterhate_Arguments.git
 ```
 
-{% endraw %}
+### **2️⃣ Navigate to the Project Directory**
+```sh
+cd Counterhate_Arguments
+```
+
+### **3️⃣ Install Dependencies**
+```sh
+pip install -r requirements.txt
+```
+
+### **4️⃣ Data Preparation**
+```sh
+python prepare_data.py --csv-file <path_to_csv_file> --level <level> --output-dir <output_directory>
+```
+
+### **5️⃣ Train the Model**
+```sh
+python train.py --data-dir <processed_data_path> --level <level> --output-dir <output_path>
+```
+
+### **6️⃣ Evaluate the Model**
+```sh
+python test.py --data-dir <processed_data_path> --trained-model-dir <trained_model_path> --output-dir <output_path>
+```
+
+### **7️⃣ Perform Error Analysis**
+```sh
+python error_analysis.py --data-dir <processed_data_path> --trained-model-dir <trained_model_path> --output-dir <output_path>
+```
+
+### **🔥 Quick Run Scripts**
+Instead of running steps individually, execute:
+- `article_script.sh` for **article-level** processing.
+- `paragraph_script.sh` for **paragraph-level** processing.
+
+---
+
+## 🏆 Key Takeaways
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/key_takeaways.png" title="Major Findings" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+- **Reproducibility Validated**: Our results closely align with the original research.
+- **Counterhate is Crucial**: Identifying **logical, evidence-backed counterhate responses** improves **online discourse**.
+- **Future Work**: Exploring **multilingual generalization** of counterhate responses.
+
+---
+
+## 📜 Citation
+
+If you use this work, please cite:
+
+```
+@misc{papneja_pati_2024,
+  author = {Papneja, S. and Pati, S.},
+  title = {Implementing Authentic Counterhate Arguments},
+  year = {2024},
+  url = {https://github.com/swetapati22/Counterhate_Arguments},
+  note = {GitHub Repository}
+}
+```
+
+---
+
+## 📫 Contact
+
+For questions or collaborations, feel free to reach out!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sweta-pati)  
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:spati@gmu.edu)
+
