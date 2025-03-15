@@ -165,7 +165,5 @@ If you use this work, please cite:
   url = {https://github.com/swetapati22/Counterhate_Arguments},
   note = {GitHub Repository}
 }
-
-
-
+```
 
