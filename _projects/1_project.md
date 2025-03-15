@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-## 🔍 Overview
+## Overview
 
 In this project, we **replicate and extend** the EMNLP 2023 paper **"Finding Authentic Counterhate Arguments: A Case Study with Public Figures"** by **Albanyan, Hassan, and Blanco**. This study focuses on identifying **authentic counterhate arguments** that effectively counter online **hate speech** targeted at specific individuals.
 
@@ -17,7 +17,7 @@ This work is part of the **"Reproducibility Challenges in Research Papers"** ini
 Inorder to have a better understanding of our work please go through a carefully prepared Presentation.
 ---
 
-## 🛠 Project Objective
+## Project Objective
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,7 +35,7 @@ Inorder to have a better understanding of our work please go through a carefully
 
 ---
 
-## 📌 Dataset Overview
+## Dataset Overview
 
 Our dataset is derived from **hateful tweets** directed at **50 individuals**. It includes:
 - **250 hateful tweets**
@@ -49,7 +49,7 @@ Our dataset is derived from **hateful tweets** directed at **50 individuals**. I
 </div>
 ---
 
-## 📖 Approach & Methodology
+## Approach & Methodology
 
 To ensure a structured analysis, we break down the workflow into **four key stages**:
 
@@ -59,28 +59,28 @@ To ensure a structured analysis, we break down the workflow into **four key stag
     </div>
 </div>
 
-### **1️⃣ Data Preparation**
+### ** Data Preparation**
 - Loads raw tweets, paragraphs, and articles.
 - Cleans and tokenizes text using **RoBERTa** (for paragraphs) and **Longformer** (for articles).
 - Splits into **training, validation, and test sets**.
 
-### **2️⃣ Model Training**
+### ** Model Training**
 - **Fine-tunes transformers-based models** on the dataset.
 - Implements **Adaptive Learning Rate Scheduling** with **AdamW optimizer**.
 - Trains using a **classification loss function**.
 
-### **3️⃣ Model Evaluation**
+### ** Model Evaluation**
 - Evaluates on **Precision, Recall, and F1-score**.
 - Compares against **published results**.
 
-### **4️⃣ Error Analysis & Interpretability**
+### ** Error Analysis & Interpretability**
 - **Identifies misclassified samples** to analyze weaknesses.
 - Generates **histograms** to visualize text characteristics.
 - **Improves generalizability** via error correction.
 
 ---
 
-## 📊 Experiments & Results
+## Experiments & Results
 
 ### **Dataset Splitting & Model Performance**
 The dataset is divided into **article-level** and **paragraph-level** experiments. We compare our model’s **precision, recall, and F1-score** against the original paper.
@@ -97,49 +97,49 @@ Our model achieves **comparable performance** to the original implementation.
 
 ## 🚀 How to Run the Project
 
-### **1️⃣ Clone the Repository**
+### **Clone the Repository**
 ```sh
 git clone https://github.com/swetapati22/Counterhate_Arguments.git
 ```
 
-### **2️⃣ Navigate to the Project Directory**
+### **Navigate to the Project Directory**
 ```sh
 cd Counterhate_Arguments
 ```
 
-### **3️⃣ Install Dependencies**
+### **Install Dependencies**
 ```sh
 pip install -r requirements.txt
 ```
 
-### **4️⃣ Data Preparation**
+### **Data Preparation**
 ```sh
 python prepare_data.py --csv-file <path_to_csv_file> --level <level> --output-dir <output_directory>
 ```
 
-### **5️⃣ Train the Model**
+### **Train the Model**
 ```sh
 python train.py --data-dir <processed_data_path> --level <level> --output-dir <output_path>
 ```
 
-### **6️⃣ Evaluate the Model**
+### **Evaluate the Model**
 ```sh
 python test.py --data-dir <processed_data_path> --trained-model-dir <trained_model_path> --output-dir <output_path>
 ```
 
-### **7️⃣ Perform Error Analysis**
+### **Perform Error Analysis**
 ```sh
 python error_analysis.py --data-dir <processed_data_path> --trained-model-dir <trained_model_path> --output-dir <output_path>
 ```
 
-### **🔥 Quick Run Scripts**
+### **Quick Run Scripts**
 Instead of running steps individually, execute:
 - `article_script.sh` for **article-level** processing.
 - `paragraph_script.sh` for **paragraph-level** processing.
 
 ---
 
-## 🏆 Key Takeaways
+## Key Takeaways
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -153,7 +153,7 @@ Instead of running steps individually, execute:
 
 ---
 
-## 📜 Citation
+## Citation
 
 If you use this work, please cite:
 
