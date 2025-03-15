@@ -21,7 +21,7 @@ Inorder to have a better understanding of our work please go through a carefully
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/objective_box.png" title="Project Objective" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/counter_hate_motivation.png" title="Project Objective" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -91,7 +91,7 @@ The dataset is divided into **article-level** and **paragraph-level** experiment
     </div>
 </div>
 
-Our model achieves **comparable performance** to the original implementation.
+Our model achieves **comparable performance** to the original reported results.
 
 ---
 
@@ -140,12 +140,6 @@ Instead of running steps individually, execute:
 ---
 
 ## Key Takeaways
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/key_takeaways.png" title="Major Findings" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 - **Reproducibility Validated**: Our results closely align with the original research.
 - **Counterhate is Crucial**: Identifying **logical, evidence-backed counterhate responses** improves **online discourse**.
