@@ -10,12 +10,11 @@ related_publications: true
 
 ## 🔍 Overview
 
-In this project, we **replicate and extend** the [EMNLP 2023](https://aclanthology.org/2023.emnlp-main.855.pdf) paper **"Finding Authentic Counterhate Arguments: A Case Study with Public Figures"** by **Albanyan, Hassan, and Blanco**. This study focuses on identifying **authentic counterhate arguments** that effectively counter online **hate speech** targeted at specific individuals.
+In this project, we **replicate and extend** the EMNLP 2023 paper **"Finding Authentic Counterhate Arguments: A Case Study with Public Figures"** by **Albanyan, Hassan, and Blanco**. This study focuses on identifying **authentic counterhate arguments** that effectively counter online **hate speech** targeted at specific individuals.
 
-This work is part of the **"Reproducibility Challenges in Research Papers"** initiative and has been carefully documented in our [Reproducibility Study Report](assets/pdf/Counterhate_Arguments_Report.pdf) by **Sweta Pati and Swabhi Papneja**.
+This work is part of the **"Reproducibility Challenges in Research Papers"** initiative and has been carefully documented in our Reproducibility Study Report by **Sweta Pati and Swabhi Papneja**.
 
-Inorder to have a better understanding of our work please go through a carefully prepared [Presentation](assets/pdf/Counterhate_Arguments.pdf).
-
+Inorder to have a better understanding of our work please go through a carefully prepared Presentation.
 ---
 
 ## 🛠 Project Objective
@@ -167,13 +166,4 @@ If you use this work, please cite:
   note = {GitHub Repository}
 }
 ```
-
----
-
-## 📫 Contact
-
-For questions or collaborations, feel free to reach out!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sweta-pati)  
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:spati@gmu.edu)
 
