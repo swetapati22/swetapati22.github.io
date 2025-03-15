@@ -40,6 +40,14 @@ What is Hate Speech?
 What is Counterhate?  
 > "_Counterhate is a direct response that refutes hate speech. An **authentic counterhate argument** is a **fact-based** response that includes logical reasoning, testimonials, or statistical evidence._"
 
+This here is an example of a Hateful tweet (top) and three replies with counterhate. In this paper, the authors find authentic counterhate arguments that address the hateful claims in the tweet at hand.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/counter_hate_example.png" title="Counter Hate Example" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ---
 
 **Dataset Overview**  
