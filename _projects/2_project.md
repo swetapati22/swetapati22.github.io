@@ -13,7 +13,8 @@ giscus_comments: true
     Project: YouTube Global Statistics Analytics
     Repository: https://github.com/swetapati22/youtube_statistics_analytics_dashboard
     Dataset: https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023?resource=download
-    Dashboard Preview Link: https://my-example-project-514006-3h0rzgww-ndjz2ws6la-ue.a.run.app  
+    Dashboard Preview Link: https://my-example-project-514006-3h0rzgww-ndjz2ws6la-ue.a.run.app 
+    Demo Video Link: https://drive.google.com/file/d/1dIltYoPJXD8v64u2FJ1dohb0a2Vnw4o0/view?usp=sharing 
     ---
 
 ## **Overview**
