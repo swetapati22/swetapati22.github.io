@@ -1,7 +1,7 @@
 ---
 layout: page
 title: YouTube Global Statistics Analytics
-description: A Preswald-powered interactive web application analyzing global YouTube trends across categories, creators, and countries.
+description: A Data Visualization, interactive web application project to analyze global YouTube trends enabling dynamic exploration through interactive insights.
 img: assets/img/preswald_cover_analytics.gif
 importance: 2
 category: work
@@ -17,7 +17,7 @@ giscus_comments: true
     ---
 
 ## **Overview**
-This project is a **Preswald-powered interactive web application** that analyzes **YouTube video trends** across **categories, countries, and creators** using the **Global YouTube Statistics 2023 dataset**.
+**A Data Visualization, interactive web application project using Plotly, Preswald, Python, and Pandas** to analyze **global YouTube trends** across **categories, creators, and countries**. Enabling **dynamic exploration** through **interactive insights** using **Global YouTube Statistics 2023** dataset.
 
 The application features **six interactive visualizations** and **a dynamic slider filter** to enhance interactivity.
 
