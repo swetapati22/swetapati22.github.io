@@ -2,7 +2,7 @@
 layout: page
 title: YouTube Global Statistics Analytics
 description: A Preswald-powered interactive web application analyzing global YouTube trends across categories, creators, and countries.
-img: assets/img/preswald_project_icon.jpg
+img: assets/img/preswald_cover_analytics.gif
 importance: 2
 category: work
 giscus_comments: true
