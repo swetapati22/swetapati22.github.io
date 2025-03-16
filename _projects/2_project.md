@@ -178,4 +178,3 @@ Replace `<your-github-username>` and `<structured-api-key>` with your credential
 
 ---
 This **interactive dashboard** provides valuable insights for **content creators, analysts, and marketers** to understand **global YouTube trends** dynamically.
----
