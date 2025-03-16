@@ -7,14 +7,14 @@ importance: 2
 category: work
 giscus_comments: true
 ---
-
----
-Source Code available in the repository  
-**GitHub handle:** swetapati22  
-**Project:** YouTube Global Statistics Analytics  
-**Repository:** [GitHub Repo](https://github.com/swetapati22/youtube_statistics_analytics_dashboard)
-**Dashboard Preview Link:** [Preview Dashboard](https://my-example-project-514006-3h0rzgww-ndjz2ws6la-ue.a.run.app)    
----
+    ---
+    Source Code available in the repository
+    Github handle: swetapati22
+    Project: YouTube Global Statistics Analytics
+    Repository: https://github.com/swetapati22/youtube_statistics_analytics_dashboard
+    Dataset: https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023?resource=download
+    Dashboard Preview Link: https://my-example-project-514006-3h0rzgww-ndjz2ws6la-ue.a.run.app  
+    ---
 
 ## **Overview**
 This project is a **Preswald-powered interactive web application** that analyzes **YouTube video trends** across **categories, countries, and creators** using the **Global YouTube Statistics 2023 dataset**.
@@ -31,9 +31,8 @@ The application features **six interactive visualizations** and **a dynamic slid
 
 ---
 ## **Dataset Details**
-- **Dataset:** [Global YouTube Statistics 2023](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023?resource=download)  
+- **Dataset:** Global YouTube Statistics 2023:   
 - **Dataset Source:** Kaggle  
-- **Live Deployed Preview Link:** [View Deployed App](https://my-example-project-514006-3h0rzgww-ndjz2ws6la-ue.a.run.app)
 
 ---
 ## **Global Filter - Slider for Views Threshold**
