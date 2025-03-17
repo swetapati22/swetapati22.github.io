@@ -9,7 +9,7 @@ profile:
   image: sweta_pati_close.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Seeking Full Time Opportunities</p>
+    <p>Seeking Full Time Opportunities.</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

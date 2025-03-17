@@ -5,7 +5,6 @@ description: Extending the Gentopia framework with a Currency Conversion Agent a
 img: assets/img/ai_agents2.png
 importance: 3
 category: work
-giscus_comments: true
 ---
 
     ---
