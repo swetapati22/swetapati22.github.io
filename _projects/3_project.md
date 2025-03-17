@@ -4,7 +4,7 @@ title: Enhancing Gentopia with AI Agents
 description: Extending the Gentopia framework with a Currency Conversion Agent and a PDF Reader Agent for real-time exchange rates and document analysis.
 img: assets/img/ai_agents2.png
 importance: 3
-category: projects
+category: fun
 ---
 
     ---
