@@ -2,8 +2,8 @@
 layout: page
 title: Spotify 2023 Streaming Analysis
 description: Exploring the most streamed artists, songs, and industry trends of 2023 through interactive data visualization.
-img: assets/img/preswald_cover_analytics.gif
-importance: 4
+img: assets/img/Spotify_analysis.jpeg
+importance: 1
 category: work
 ---
 
@@ -41,7 +41,6 @@ The project utilizes the **Most Streamed Spotify Songs 2023** dataset from **Kag
 - **Playlist placements across streaming platforms**
 
 ---
-
 ## **Features & Insights**
 This app provides **interactive visualizations and insights** into the world of **Spotify streaming trends**:
 
@@ -49,99 +48,91 @@ This app provides **interactive visualizations and insights** into the world of 
 - **Bar chart** showcasing **most streamed artists globally**.
 - Analyze **trends in artist dominance** over the year.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p1.png" title="Top Artists by Streams" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
----
 
 ### **2️. Most Streamed Songs**
 - **Interactive ranking chart** of viral hits and long-lasting chart-toppers.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p2.png" title="Most Streamed Songs" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
----
 
 ### **3️. Impact of BPM on Song Popularity**
 - **Scatter plot** analyzing the correlation between **tempo (BPM) and total streams**.
 - Do **high-energy songs** perform better, or do **slow-tempo ballads** dominate?
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p3.png" title="BPM vs. Popularity" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
----
 
 ### **4️. Trends in Song Releases Over the Years**
 - **Line chart** tracking **evolution of song releases** over time.
 - Assess **the impact of streaming platforms** on **independent artists**.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p4.png" title="Song Release Trends" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
----
 
 ### **5️. How Do Song Characteristics Affect Popularity?**
 - **Energy vs. Streams, Danceability vs. Streams (Scatter Plots)**
 - **Happiness (Valence) Analysis using Box Plot**
 - Identifying **traits that define viral hits**.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p5.png" title="Energy vs. Streams" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p1.png" title="Danceability vs. Streams" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
----
 
 ### **6️. Influence of Playlist Placements on Streams**
 - **Comparison of playlist placements** across **Spotify, Apple Music, and Deezer**.
 - **Scatter plot:** Does **playlist exposure** significantly boost **streaming numbers**?
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p2.png" title="Playlist Influence on Streams" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
----
 
 ### **7️. Seasonal Trends in Song Releases & Streaming**
 - **Monthly trends in song releases and streaming activity**.
 - Identify **peak months** for **new music releases** and **streaming surges**.
 
----
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ### **8️. Key & Mode Distribution of Popular Songs**
 - **Bar chart** for **most common musical keys**.
 - **Pie chart** analyzing **major vs. minor modes** in **top songs**.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p3.png" title="Key Distribution in Popular Songs" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/preswald_p4.png" title="Major vs. Minor Mode Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="YouTube Views by Country" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -154,17 +145,17 @@ git clone https://github.com/saileshdwivedy30/spotify_2023_analysis.git
 cd spotify_2023_analysis
 ```
 
-#### **2️. Set Up Virtual Environment**
+#### **2⃣. Set Up Virtual Environment**
 ```bash
 pip install -r requirements.txt
 ```
 
-#### **3️. Run the App Locally**
+#### **3⃣. Run the App Locally**
 ```bash
 preswald run
 ```
 
-#### **4️. Deploy the App**
+#### **4⃣. Deploy the App**
 ```bash
 preswald deploy --target structured --github <your-github-username> --api-key <structured-api-key> app.py
 ```
@@ -180,11 +171,3 @@ Replace `<your-github-username>` and `<structured-api-key>` with your credential
 
 ---
 This **interactive dashboard** is designed for **music analysts, content creators, and industry professionals** to explore **Spotify’s 2023 streaming trends dynamically**.
-```
-
-### **Key Improvements**
-**Follows the portfolio format** with structured **sections**.  
-**Tech stack clearly outlined** to highlight skills.  
-**Each visualization has a heading + description + image placeholder.**  
-**Consistent structure with other portfolio projects.**  
-**"How to Run the Project"** section for better usability.  

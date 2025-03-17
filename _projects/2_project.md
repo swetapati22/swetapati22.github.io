@@ -1,7 +1,7 @@
 ---
 layout: page
 title: YouTube Global Statistics Analytics
-description: A Data Visualization, interactive web application project to analyze global YouTube trends enabling dynamic exploration through interactive insights.
+description: A Data Visualization project through an interactive web application, analyzing global YouTube trends by dynamic data filtering and interactive insights.
 img: assets/img/preswald_cover_analytics.gif
 importance: 2
 category: work
@@ -175,6 +175,5 @@ Replace `<your-github-username>` and `<structured-api-key>` with your credential
 - **YouTube trends vary significantly** by category, creator, and region.  
 - **Trending creators fluctuate frequently**, requiring continuous audience engagement.  
 - **Content quality > Upload quantity** for some categories.  
-
 ---
 This **interactive dashboard** provides valuable insights for **content creators, analysts, and marketers** to understand **global YouTube trends** dynamically.
