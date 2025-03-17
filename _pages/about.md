@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='mailto:spati@gmu.edu'>spati@gmu.edu</a>. Fairfax, VA
+subtitle: <a href='mailto:spati@gmu.edu'>spati@gmu.edu</a>. United States
 
 profile:
   align: right
   image: sweta_pati_close.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Address: 9411 Lee Hwy, Fairfax, VA, 22031</p>
+    <p>Seeking Full Time Opportunities</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -21,6 +21,7 @@ Hello! I’m **Sweta Pati**, a dedicated **Master’s student in Computer Sciene
 With key interests in **Machine Learning**, **Data Science and Analytics**, **Generative AI**, and **AI-Driven Automation**, and **DevOps**. I excel at transforming unstructured data into actionable insights.
 
 **Highlights of my work include:**
+
 **RESEARCH Experience:**  
 - I have **experience in instruction-tuning large language models (LLMs) for Event Extraction (EE) tasks** within the domain of Information Extraction by under the guidance of  Prof. Ziyu Yao. 
 
