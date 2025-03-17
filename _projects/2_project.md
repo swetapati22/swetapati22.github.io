@@ -4,7 +4,7 @@ title: YouTube Global Statistics Analytics
 description: A Data Visualization project through an interactive web application, analyzing global YouTube trends by dynamic data filtering and interactive insights.
 img: assets/img/preswald_cover_analytics.gif
 importance: 2
-category: work
+category: projects
 ---
     ---
     Source Code available in the repository

@@ -4,7 +4,7 @@ title: Counterhate Arguments Extending EMNLP '23
 description: Reproducing and extending the EMNLP '23 study on counterhate arguments for online hate speech.
 img: assets/img/counter_hate_project1.png
 importance: 1
-category: work
+category: projects
 ---
 
     ---
