@@ -51,7 +51,7 @@ This app provides **interactive visualizations and insights** into the world of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot1.png" title="Top Artists by Streams" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p1.png" title="Top Artists by Streams" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -62,7 +62,7 @@ This app provides **interactive visualizations and insights** into the world of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot2.png" title="Most Streamed Songs" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p2.png" title="Most Streamed Songs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -74,7 +74,7 @@ This app provides **interactive visualizations and insights** into the world of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot3.png" title="BPM vs. Popularity" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="BPM vs. Popularity" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -86,7 +86,7 @@ This app provides **interactive visualizations and insights** into the world of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot4.png" title="Song Release Trends" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p4.png" title="Song Release Trends" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -99,13 +99,13 @@ This app provides **interactive visualizations and insights** into the world of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot5.png" title="Energy vs. Streams" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p5.png" title="Energy vs. Streams" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot6.png" title="Danceability vs. Streams" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p1.png" title="Danceability vs. Streams" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -117,7 +117,7 @@ This app provides **interactive visualizations and insights** into the world of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot7.png" title="Playlist Influence on Streams" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p2.png" title="Playlist Influence on Streams" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -135,13 +135,13 @@ This app provides **interactive visualizations and insights** into the world of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot8.png" title="Key Distribution in Popular Songs" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p3.png" title="Key Distribution in Popular Songs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/p1_plot9.png" title="Major vs. Minor Mode Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/preswald_p4.png" title="Major vs. Minor Mode Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
