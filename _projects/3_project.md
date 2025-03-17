@@ -20,7 +20,7 @@ This project enhances the **Gentopia-Mason framework** by developing and integra
 1. **Currency Conversion Agent** – Fetches real-time exchange rates using the **Fixer.io API**.
 2. **PDF Reader Agent** – Extracts text from **PDF documents hosted online**.
 
-These agents **expand Gentopia’s capabilities**, enabling practical real-world applications in **finance and document processing**.
+These agents **expand Gentopia’s capabilities**, enabling practical real-world applications in **currency conversion and document processing**.
 
 ---
 ## **Tech Stack**
@@ -30,11 +30,10 @@ These agents **expand Gentopia’s capabilities**, enabling practical real-world
 - **PyPDF2** – PDF text extraction.
 - **HTTP Requests** – Web-based document fetching.
 - **Git & GitHub** – Version control & collaboration.
-
 ---
 
 ## **1️. Currency Conversion Agent**
-🚀 **Enhancement:** Added a **real-time currency exchange agent** to **Gentopia**, allowing users to fetch **live exchange rates** dynamically.
+Added a **real-time currency exchange agent** to **Gentopia**, allowing users to fetch **live exchange rates** dynamically.
 
 ### **How It Works**
 - Retrieves **real-time currency conversion** data from **Fixer.io API**.
@@ -58,12 +57,12 @@ target_tasks:
 ```bash
 python assemble.py currency_conversion_agent
 ```
-Once deployed, the agent can process **real-time currency conversion requests** efficiently. 🎉
+Once deployed, the agent can process **real-time currency conversion requests** efficiently.
 
 ---
 
 ## **2️. PDF Reader Agent**
-📝 **Enhancement:** Developed an agent for **reading and extracting text from PDFs hosted online**.
+Developed an agent for **reading and extracting text from PDFs hosted online**.
 
 ### **How It Works**
 - Accepts a **URL pointing to a PDF document**.
@@ -93,7 +92,7 @@ The agent efficiently retrieves **text content from any public PDF** and makes i
 
 ---
 
-## **🚀 How to Run the Project**
+## **How to Run the Project**
 ### **1. Clone the Repository**
 ```bash
 git clone https://github.com/swetapati22/Gentopia-Mason.git
@@ -127,11 +126,11 @@ python assemble.py pdf_reader_agent
 
 ---
 
-## **Key Takeaways**
-- **Expands Gentopia’s agent framework** with **real-time financial** and **document-processing tools**.
+## **Improvements Made**
+- **Expands Gentopia’s agent framework** with **real-time currency conversion** and **document-processing tools**.
 - **Integrates external APIs** (Fixer.io & PyPDF2) for practical, real-world applications.
 - **Demonstrates AI’s versatility** in finance and information retrieval.
 
 ---
-This **enhanced Gentopia project** bridges **LLM-powered automation** with **practical finance and document-processing solutions**.
+This **enhanced Gentopia project** bridges **LLM-powered automation** with **real-time currency conversion and document-processing solutions**.
 
