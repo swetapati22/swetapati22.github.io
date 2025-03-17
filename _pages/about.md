@@ -9,14 +9,14 @@ profile:
   image: sweta_pati_close.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Seeking Full Time Opportunities.</p>
+    <p>Seeking Full Time Opportunities in AI/ML, starting May 2025.</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I’m **Sweta Pati**, a dedicated **Master’s student in Computer Sciene at George Mason University specializing in Machine Learning** with a GPA of **3.93**. I have 4+ years of experience as a Data Science at a Finance Technology Firm - HighRadius Technologies. My journey combines innovative and cutting-edge research and impactful professional experience.
+Hello! I’m **Sweta Pati**, a dedicated **Master’s student in Computer Sciene at George Mason University specializing in Machine Learning** with a GPA of **3.93**, graduating in May 2025. I have 4+ years of experience as a Data Science at a Finance Technology Firm - HighRadius Technologies. My journey combines innovative and cutting-edge research and impactful professional experience.
 
 With key interests in **Machine Learning**, **Data Science and Analytics**, **Generative AI**, and **AI-Driven Automation**, and **DevOps**. I excel at transforming unstructured data into actionable insights.
 
