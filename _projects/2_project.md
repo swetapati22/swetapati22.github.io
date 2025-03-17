@@ -5,7 +5,6 @@ description: A Data Visualization, interactive web application project to analyz
 img: assets/img/preswald_cover_analytics.gif
 importance: 2
 category: work
-giscus_comments: true
 ---
     ---
     Source Code available in the repository
