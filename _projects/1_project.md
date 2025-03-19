@@ -13,7 +13,7 @@ category: fun
     Project: Re-implementing Authentic Counterhate Arguments    
     ---
 
-Source Code: <a href="https://github.com/swetapati22/Counterhate_Arguments" target="_blank">Click here</a>\
+Source Code: <a href="https://github.com/swetapati22/Counterhate_Arguments" target="_blank">Click here</a>
 
 **Overview**  
 
