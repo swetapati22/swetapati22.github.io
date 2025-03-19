@@ -12,8 +12,8 @@ category: fun
     Github handle: swetapati22
     Project: Enhancing Gentopia with AI Agents
     ---
-    
-Source Code: <a href="https://github.com/swetapati22/Gentopia-Mason" target="_blank">Click here</a>\
+
+Source Code: <a href="https://github.com/swetapati22/Gentopia-Mason" target="_blank">Click here</a>
 
 
 ## **Overview**
