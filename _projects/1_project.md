@@ -3,16 +3,17 @@ layout: page
 title: Counterhate Arguments Extending EMNLP '23
 description: Reproducing and extending the EMNLP '23 study on counterhate arguments for online hate speech.
 img: assets/img/counter_hate_project1.png
-importance: 1
+importance: 2
 category: fun
 ---
 
     ---
     Source Code available in the repository
     Github handle: swetapati22
-    Project: Re-implementing Authentic Counterhate Arguments
-    Repository: https://github.com/swetapati22/Counterhate_Arguments    
+    Project: Re-implementing Authentic Counterhate Arguments    
     ---
+
+Source Code: <a href="https://github.com/swetapati22/Counterhate_Arguments" target="_blank">Click here</a>\
 
 **Overview**  
 

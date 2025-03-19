@@ -11,8 +11,9 @@ category: fun
     Source Code available in the repository
     Github handle: swetapati22
     Project: Enhancing Gentopia with AI Agents
-    Repository: https://github.com/swetapati22/Gentopia-Mason
     ---
+Source Code: <a href="https://github.com/swetapati22/Gentopia-Mason" target="_blank">Click here</a>\
+
 
 ## **Overview**
 This project enhances the **Gentopia-Mason framework** by developing and integrating **two AI-powered agents**:

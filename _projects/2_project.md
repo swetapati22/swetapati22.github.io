@@ -3,18 +3,18 @@ layout: page
 title: YouTube Global Statistics Analytics
 description: A Data Visualization project through an interactive web application, analyzing global YouTube trends by dynamic data filtering and interactive insights.
 img: assets/img/preswald_cover_analytics.gif
-importance: 2
+importance: 1
 category: fun
 ---
     ---
     Source Code available in the repository
     Github handle: swetapati22
     Project: YouTube Global Statistics Analytics
-    Repository: https://github.com/swetapati22/youtube_statistics_analytics_dashboard
-    Dataset: https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023?resource=download
-    Dashboard Preview Link: https://my-example-project-514006-3h0rzgww-ndjz2ws6la-ue.a.run.app 
-    Demo Video Link: https://drive.google.com/file/d/1dIltYoPJXD8v64u2FJ1dohb0a2Vnw4o0/view?usp=sharing 
     ---
+Source Code: <a href="https://github.com/swetapati22/youtube_statistics_analytics_dashboard" target="_blank">Click here</a>\
+Deployed App: <a href="https://my-example-project-514006-3h0rzgww-ndjz2ws6la-ue.a.run.app" target="_blank">Click here</a>\
+Demo Video: <a href="https://drive.google.com/file/d/1dIltYoPJXD8v64u2FJ1dohb0a2Vnw4o0/view?usp=sharingg">Watch Demo</a>\
+Dataset Link: <a href="https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023?resource=download" target="_blank">View Dataset</a>
 
 ## **Overview**
 **A Data Visualization, interactive web application project using Plotly, Preswald, Python, and Pandas** to analyze **global YouTube trends** across **categories, creators, and countries**. Enabling **dynamic exploration** through **interactive insights** using **Global YouTube Statistics 2023** dataset.
