@@ -4,7 +4,7 @@ title: MultiCloud, DevOps & AI eCommerce Platform
 description: A multi-cloud powered eCommerce platform leveraging AWS, Google Cloud, and Azure, featuring automated CI/CD pipelines, Kubernetes orchestration, AI-driven recommendations, customer support, and Azure Text Analytics with Google BigQuery Integration.
 img: assets/img/devops.png
 importance: 3
-category: cloud-devops
+category: Cloud DevOps
 ---
     ---
     Source Code available in the repository

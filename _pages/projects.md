@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my projects.
 nav: true
 nav_order: 3
-display_categories: [fun, cloud-devops]
+display_categories: [Data Science and Machine Learning, Cloud DevOps]
 horizontal: false
 ---
 
