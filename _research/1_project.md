@@ -16,7 +16,7 @@ img: assets/img/EE_Research.gif
 - **ACL 2025 Submission**: *Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines* (Pending Review)
 - **Research Institution**: George Mason University (GMU), NLP Lab 
 - **Focus Area**: **Event Extraction**, **Instruction-Tuned LLMs**, **Annotation Guideline Generation**
-- **Code Repository**: [GitHub Repository](https://github.com/swetapati22/event-extraction-llm) *(Coming Soon!)*
+- **Code Repository**: *(Coming Soon!)*
 - **Dataset & Annotation Guidelines**: *(Coming Soon!)*
 
 ---
