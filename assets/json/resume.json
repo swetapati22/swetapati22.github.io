@@ -78,7 +78,7 @@
       "endDate": "Present",
       "highlights": [
         "Working with Prof. Ziyu Yao in the domain of Information Extraction, more briefly explored generalization in Event Extraction tasks through instruction-tuned LLMs aided by diverse set of annotation guidelines.",
-        "Submitted research paper Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines to ACL 2025."
+        "Submitted research paper Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines to ACL 2025.",
         "Improved F1-score by 10% in EE tasks by synthesizing structured guidelines for 500+ events and 4000+ arguments, and fine-tuning LLaMA-3.1 8B using LoRA and regularization techniques.",
         "Designed a custom evaluation script to ensure robust benchmarking for Event Argument Extraction (EAE), Event Detection (ED), and End-to-End (E2E) EE tasks."
       ]
@@ -218,12 +218,12 @@
       "name": "Event-Driven Agentic Document Workflows",
       "date": "2025-03",
       "issuer": "Deep Learning.AI and LlamaIndex"
-    }
+    },
     {
       "name": "Google AI Essential",
       "date": "2025-03",
       "issuer": "Google"
-    }
+    },
     {
       "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
       "date": "2024-08",
