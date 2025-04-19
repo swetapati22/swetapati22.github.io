@@ -127,47 +127,100 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Python", "Java", "SQL"]
+      "keywords": ["Python", "SQL", "PyTorch", "Numpy", "Pandas", "Scikit-learn", "PySpark"]
     },
     {
-      "name": "Machine Learning & Data Science",
+      "name": "Large Language Models",
       "keywords": [
-        "Statistics",
-        "Classification",
-        "Regression",
-        "Ensemble Methods (Bagging, Boosting)",
-        "Clustering",
-        "Time Series",
-        "Scikit-learn",
-        "PySpark",
-        "Hugging Face Transformers",
-        "YOLO",
-        "ML Ops",
-        "Neural Networks",
-        "CUDA",
-        "HPC",
-        "NLP",
-        "LLM",
-        "Fine Tuning",
+        "LLMs (GPT, LLaMA, BERT)",
+        "Fine-Tuning",
+        "PEFT",
+        "Instruction Tuning",
+        "Prompt Engineering",
+        "RAG",
+        "Agentic AI",
         "LangChain",
-        "Generative AI"
+        "Vector DBs"
       ]
     },
     {
-      "name": "Tools & Frameworks",
-      "keywords": ["Pytorch", "Dialogflow", "GIT", "GitHub", "Jira", "Docker", "AWS Cloud"]
+      "name": "NLP and Deep Learning",
+      "keywords": [
+        "Transformers",
+        "Event Extraction",
+        "Neural Networks",
+        "RNN",
+        "CNN",
+        "Computer Vision"
+      ]
     },
     {
-      "name": "General Skills",
+      "name": "Data Science and Machine Learning",
       "keywords": [
-        "Data Visualization",
-        "Predictive Modeling",
+        "Statistics",
+        "Supervised",
+        "Unsupervised",
+        "Classification",
+        "Regression",
+        "Ensemble",
+        "Bagging",
+        "Boosting",
+        "SVM",
+        "Random Forest",
+        "A/B Testing",
+        "Feature Engineering",
+        "Feature Selection",
+        "Model Monitoring"
+      ]
+    },
+    {
+      "name": "MLOps and Deployment",
+      "keywords": [
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Google Cloud (GCP)",
+        "Weights & Biases",
+        "MLflow"
+      ]
+    },
+    {
+      "name": "Data Visualization",
+      "keywords": [
         "Data Mining",
-        "Data Analysis"
+        "Data Analysis",
+        "Tableau",
+        "Seaborn",
+        "Plotly",
+        "Matplotlib",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Tools and Platforms",
+      "keywords": [
+        "GitHub",
+        "Jira",
+        "Hugging Face",
+        "OpenAI API",
+        "Groq API",
+        "HPC Environments"
       ]
     }
   ],
   "certificates": [
+    {
+      "name": "Event-Driven Agentic Document Workflows",
+      "date": "2025-03",
+      "issuer": "Deep Learning.AI and LlamaIndex"
+    }
+    {
+      "name": "Google AI Essential",
+      "date": "2025-03",
+      "issuer": "Google"
+    }
     {
       "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
       "date": "2024-08",
