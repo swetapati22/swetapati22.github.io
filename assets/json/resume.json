@@ -203,16 +203,6 @@
         "Designed a system that dynamically allocates buses based on capacity (via ticketing system) and demand within each route.",
         "Implemented YOLO object detection to calculate demand at each bus stop and inside buses."
       ]
-    },
-    {
-      "name": "Project: Dynamic Traffic Management System",
-      "summary": "Created an algorithmic approach to optimize traffic light timing in urban environments.",
-      "techStack": [
-        "Algorithm"
-      ],
-      "highlights": [
-        "Used traffic flow analysis to reduce congestion at key intersections."
-      ]
     }
   ],
   "skills": [
