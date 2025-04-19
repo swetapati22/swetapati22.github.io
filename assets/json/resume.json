@@ -77,6 +77,8 @@
       "startDate": "2024-08",
       "endDate": "Present",
       "highlights": [
+        "Working with Prof. Ziyu Yao in the domain of Information Extraction, more briefly explored generalization in Event Extraction tasks through instruction-tuned LLMs aided by diverse set of annotation guidelines.",
+        "Submitted research paper Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines to ACL 2025."
         "Improved F1-score by 10% in EE tasks by synthesizing structured guidelines for 500+ events and 4000+ arguments, and fine-tuning LLaMA-3.1 8B using LoRA and regularization techniques.",
         "Designed a custom evaluation script to ensure robust benchmarking for Event Argument Extraction (EAE), Event Detection (ED), and End-to-End (E2E) EE tasks."
       ]
@@ -102,10 +104,11 @@
       "location": "Odisha, India",
       "summary": "Implemented and deployed machine learning models for Fortune 500 companies, enhancing operational efficiency and predictive accuracy.",
       "highlights": [
-        "Increased dollar recovery rate by 12% in US dollars implementing imbalanced classification ML model - Deduction Validity Predictor (DVP) for fraud detection with 85% average accuracy for 10+ fortune 500 clients like Nestle, Kraft Heinz, Kellogs, Clorox, etc.",
-        "Conceptualized and productionized an ML regression model pipeline for Payment Date Prediction (PDP) for 20 Fortune 500 clients like Uber, AstraZeneca, and Kellogs, successfully reducing their Days Sales Outstanding (DSO) by 30%.",
+        "Increased dollar recovery rate by 12% implementing imbalanced classification ML model (DVP) for fraud detection with 85% average accuracy for 10+ fortune 500 clients.",
         "Increased sales acceleration and reduced business disruptions by 20% through the optimization of credit decisioning for order release using predictive models.",
-        "Reduced DVP implementation timeline by 48% and PDP by 57% through automation of ML and deployment pipelines.",
+        "Reduced Days Sales Outstanding (DSO) by 30% by building a regression model for Payment Date Prediction (PDP).",
+        "Accelerated DVP and PDP deployment by 48% and 57%, automating the model building and deployment pipelines.",
+        "Productionized ML models for 10+ Fortune 500 clients like Nestle, Kraft Heinz, Clorox, Uber, Kellogg’s, etc.",
         "Enhanced stakeholder decision-making by visualizing model insights and business impact using Tableau.",
         "Developed a digital assistant, Freeda, used by Fortune 500 companies to understand intent behind user queries and provide appropriate responses for multiple Highradius cloud products.",
         "Mentored over 15 interns in data science and business concepts during the 2021 and 2022 internship programs."
