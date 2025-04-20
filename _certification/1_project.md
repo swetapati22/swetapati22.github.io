@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Event-Driven Agentic Document Workflows
-importance: 2
+importance: 1
 description: Completed short course by DeepLearning.AI focused on agentic workflows for automating document processing using RAG and human-in-the-loop strategies.
 img: assets/img/EventDrivenAgenticWorkflows.png
 category: Machine Learning and AI

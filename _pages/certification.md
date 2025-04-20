@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Research Work
-permalink: /research/
-description: Sharing my research experience.
+title: Certification
+permalink: /certification/
+description: Sharing the certifications I did.
 nav: true
 nav_order: 4
 display_categories: [Machine Learning and AI]
