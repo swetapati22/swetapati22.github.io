@@ -15,9 +15,6 @@ category: Machine Learning and AI
 
 ## **📜 Certification**
 - **Link to view certification**: <a href="https://learn.deeplearning.ai/accomplishments/81a0e776-b457-4584-853d-1cf8023b81e1?usp=sharing" target="_blank">Event-Driven Agentic Document Workflows</a>
-
-{% include figure.html path="assets/img/EventDrivenAgenticWorkflows.png" title="Certificate" class="img-fluid rounded z-depth-1" %}
-
 ---
 
 ## 📘 **Covered Modules**
