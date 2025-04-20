@@ -49,6 +49,7 @@
     {
       "name": "George Mason University",
       "position": "Research Assistant",
+      "location": "Virginia, USA",
       "url": "https://gmu.edu",
       "startDate": "2024-08",
       "endDate": "Present",
@@ -62,6 +63,7 @@
     {
       "name": "George Mason University",
       "position": "Summer Research Intern",
+      "location": "Virginia, USA",
       "url": "https://gmu.edu",
       "startDate": "2024-06",
       "endDate": "2024-08",
@@ -75,6 +77,7 @@
     {
       "name": "Highradius Technologies Private Limited",
       "position": "Data Scientist",
+      "location": "India",
       "startDate": "2020-09",
       "endDate": "2023-08",
       "location": "Odisha, India",
@@ -93,6 +96,7 @@
     {
       "name": "Indian Institute of Technology, Kharagpur",
       "position": "Research Intern",
+      "location": "India",
       "startDate": "2018-06",
       "endDate": "2018-06",
       "location": "West Bengal, India",
