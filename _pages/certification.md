@@ -5,7 +5,7 @@ permalink: /certification/
 description: Sharing the certifications I did.
 nav: true
 nav_order: 4
-display_categories: [Machine Learning and AI]
+display_categories: [ML]
 horizontal: false
 ---
 
