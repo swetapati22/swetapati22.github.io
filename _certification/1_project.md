@@ -7,11 +7,9 @@ img: assets/img/EventDrivenAgenticWorkflows.png
 category: Machine Learning and AI
 ---
 
-    ---
-    Course Provider: **DeepLearning.AI**  
-    Course Partner: **LlamaIndex**  
-    Status: **100% Completed**  
-    ---
+**Course Provider**: **DeepLearning.AI**  
+**Course Partner**: **LlamaIndex**  
+**Status**: **100% Completed**
 
 ---
 
@@ -25,13 +23,13 @@ category: Machine Learning and AI
 ## 📘 **Covered Modules**
 
 1. **Introduction**  
-2. **What are Agentic Document Workflows**
-3. **Building a Workflow**
-4. **Adding RAG**
+2. **What are Agentic Document Workflows**  
+3. **Building a Workflow**  
+4. **Adding RAG**  
 5. **Form Parsing**  
 6. **Human in the Loop**  
-7. **Use Your Voice**
-8. **Conclusion**
+7. **Use Your Voice**  
+8. **Conclusion**  
 9. **Appendix – Tips and Help**
 
 ---
