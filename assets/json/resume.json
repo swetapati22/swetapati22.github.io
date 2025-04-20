@@ -306,6 +306,11 @@
   ],
   "certificates": [
     {
+      "name": "Hugging Face Agents Course - Unit 1",
+      "date": "2025-04",
+      "issuer": "Hugging Face"
+    },
+    {
       "name": "Event-Driven Agentic Document Workflows",
       "date": "2025-03",
       "issuer": "Deep Learning.AI and LlamaIndex"
