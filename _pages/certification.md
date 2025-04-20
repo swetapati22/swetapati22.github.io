@@ -4,7 +4,7 @@ title: Research Work
 permalink: /research/
 description: Sharing my research experience.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [Machine Learning and AI]
 horizontal: false
 ---

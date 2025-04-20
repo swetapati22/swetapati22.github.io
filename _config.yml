@@ -153,6 +153,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:title/
+  certification:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
