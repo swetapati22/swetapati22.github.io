@@ -105,7 +105,7 @@
   ],
   "projects": [
     {
-      "name": "Medi-Buddy - Multi-Agent Framework for Medical Insights",
+      "name": "Project: Medi-Buddy - Multi-Agent Framework for Medical Insights",
       "summary": "Developed a multi-agent framework using LLaMA-3.3 70B to extract and summarize evidence-based medical insights from PubMed and Wikipedia.",
       "techStack": [
         "Python", "LLaMA-3.3-70B", "Phidata", "Groq Inference API", "PubMed API", "Wikipedia API", "DuckDuckGo"
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "name": "Multi-Cloud AI-Driven DevOps",
+      "name": "Project: Multi-Cloud AI-Driven DevOps",
       "summary": "Designed a scalable, AI-powered e-commerce platform using infrastructure and services across AWS, GCP, and Azure.",
       "techStack": [
         "Python", "Terraform", "Docker", "Kubernetes", "AWS", "GCP", "Azure", "FastAPI", "OpenAI APIs", "Bedrock AI", "Google BigQuery"
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "name": "Gentopia-Mason - Enhancing LLM Agents with Currency Conversion & PDF Reader",
+      "name": "Project: Gentopia-Mason - Enhancing LLM Agents with Currency Conversion & PDF Reader",
       "summary": "Extended Gentopia to support real-time currency conversion and document extraction with LLM-powered agents.",
       "techStack": [
         "Python", "Gentopia", "OpenAI API", "Fixer.io API", "PyPDF2"
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "name": "Multilingual Sentence Classification for Media Framing and Bias Detection",
+      "name": "Project: Multilingual Sentence Classification for Media Framing and Bias Detection",
       "summary": "Fine-tuned BERT for multilingual sentence classification to detect media bias with 15-class taxonomy.",
       "techStack": [
         "Python", "Hugging Face Transformers", "BERT", "Spacy", "HPC", "Colab", "GPU"
