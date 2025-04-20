@@ -14,7 +14,7 @@ category: Machine Learning and AI
 
 ---
 ## **📜 Research Paper & Resources**
-- **ACL 2025 Submission**: *Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines* (Pending Review)
+- **ACL 2025 Submission**: Source Code: <a href="https://arxiv.org/abs/2502.16377" target="_blank">Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines</a> (In-Review)
 - **Research Institution**: George Mason University (GMU), NLP Lab 
 - **Focus Area**: **Event Extraction**, **Instruction-Tuned LLMs**, **Annotation Guideline Generation**
 - **Code Repository**: *(Coming Soon!)*
