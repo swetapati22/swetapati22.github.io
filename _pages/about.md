@@ -5,10 +5,11 @@ permalink: /
 subtitle: <a href='mailto:spati2203@gmail.com'>spati2203@gmail.com</a>. United States
 profile:
   align: right
-  image: sweta_pati_close.png
+  image: prof_pic_close.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Seeking full-time opportunities in AI/ML (currently on F1 OPT)</p>
+    <p><a href="/assets/files/Sweta_Pati_Resume.pdf" target="_blank" style="font-weight:bold;"> View My Resume (PDF)</a></p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
