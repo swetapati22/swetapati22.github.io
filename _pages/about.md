@@ -9,7 +9,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Seeking full-time opportunities in AI/ML (currently on F1 OPT)</p>
-    <p><a href="/assets/files/Sweta_Pati_Resume.pdf" target="_blank" style="font-weight:bold;"> View My Resume (PDF)</a></p>
+    <p><a href="/assets/pdf/Sweta_Pati_Resume.pdf" target="_blank" style="font-weight:bold;"> View My Resume (PDF)</a></p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
