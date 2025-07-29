@@ -13,7 +13,6 @@ category: Data Science and Machine Learning
     ---
 
 Source Code: <a href="https://github.com/swetapati22/Youtube_Global_Statistics_Data_Analytics" target="_blank">Click here</a>\
-Deployed App: <a href="https://my-example-project-514006-3h0rzgww-ndjz2ws6la-ue.a.run.app" target="_blank">Click here</a>\
 Demo Video: <a href="https://drive.google.com/file/d/1dIltYoPJXD8v64u2FJ1dohb0a2Vnw4o0/view?usp=sharing">Watch Demo</a>\
 Dataset Link: <a href="https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023?resource=download" target="_blank">View Dataset</a>
 
