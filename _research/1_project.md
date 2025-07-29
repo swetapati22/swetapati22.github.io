@@ -101,12 +101,12 @@ We conducted evaluations on:
 ### **Key Results:**
 
 #### ACE05 (machine-generated guidelines, *no negative sampling*)
-    - **Trigger Classification (TC):** +10% improvement  
-    - **Argument Classification (AC):** +5% improvement  
+    - Trigger Classification (TC): +10% improvement  
+    - Argument Classification (AC): +5% improvement  
 
 #### RichERE (machine-generated guidelines, *with negative sampling*)
-    - **Trigger Classification (TC):** +30% improvement  
-    - **Argument Classification (AC):** +25% improvement  
+    - Trigger Classification (TC): +30% improvement  
+    - Argument Classification (AC): +25% improvement  
 
 ---
 
