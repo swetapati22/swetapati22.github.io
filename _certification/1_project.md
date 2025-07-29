@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Event-Driven Agentic Document Workflows
+title: Hugging Face: AI Agents Course
 importance: 1
 description: Completed short course by DeepLearning.AI focused on agentic workflows for automating document processing using RAG and human-in-the-loop strategies.
 img: assets/img/EventDrivenAgenticWorkflows.png
@@ -14,7 +14,7 @@ category: ML
 ---
 
 ## **📜 Certification**
-- **Link to view certification**: <a href="https://learn.deeplearning.ai/accomplishments/81a0e776-b457-4584-853d-1cf8023b81e1?usp=sharing" target="_blank">Event-Driven Agentic Document Workflows</a>
+- **Link to view certification**: <a href="https://cdn-uploads.huggingface.co/production/uploads/noauth/mJ74PhkSBxWLP6OhlqRRs.webp" target="_blank">Hugging Face: AI Agents Course</a>
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
@@ -25,15 +25,11 @@ category: ML
 
 ## 📘 **Covered Modules**
 
-1. **Introduction**  
-2. **What are Agentic Document Workflows**  
-3. **Building a Workflow**  
-4. **Adding RAG**  
-5. **Form Parsing**  
-6. **Human in the Loop**  
-7. **Use Your Voice**  
-8. **Conclusion**  
-9. **Appendix – Tips and Help**
+1. Foundational Units: where you learn Agents concepts in theory.
+2. Hands-on: where you’ll learn to use established AI Agent libraries to train your agents in unique environments. These hands-on sections will be Hugging Face Spaces with a pre-configured environment.
+3. Use case assignments: where you’ll apply the concepts you’ve learned to solve a real-world problem that you’ll choose.
+4. The Challenge: you’ll get to put your agent to compete against other agents in a challenge. There will also be a leaderboard (not available yet) for you to compare the agents’ performance.
+
 
 ---
 

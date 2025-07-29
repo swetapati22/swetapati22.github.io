@@ -23,7 +23,7 @@ With key interests in **Machine Learning**, **Data Science and Analytics**, **Ge
 **Highlights of my work include:**
 
 **RESEARCH Experience:**  
-- I have **experience in instruction-tuning large language models (LLMs) for Event Extraction (EE) tasks** within the domain of Information Extraction by under the guidance of  Prof. Ziyu Yao. 
+- I have **experience in instruction-tuning large language models (LLMs) for Event Extraction (EE) tasks** within the domain of Information Extraction under the guidance of  Prof. Ziyu Yao. 
 
 **Professional Experience:**  
 - Prior to my Master’s, I gained 4+ years of professional experience as a **Data Scientist** at **Highradius**. My work involved **implementing ML models and deploying end-to-end ML pipelines** for complex regression and imbalance classification use cases for Fortune 500 companies such as Nestle, Kraft Heinz, and Clorox enhancing their operational efficiency and automating workflows for greater scalability.
