@@ -4,7 +4,7 @@ title: Instruction-Tuned LLMs for Event Extraction
 importance: 1
 description: ACL 2025 (Findings): Enhancing event extraction using instruction-tuned large language models (LLMs), optimizing annotation guidelines, and improving fine-tuning techniques for NLP tasks.
 img: assets/img/EE_Research.gif
-category: Natural Language Processing and Large Language Models
+category: NLP and LLMs
 ---
     ---
     Research conducted at George Mason University (GMU) - Natural Language Processing Lab

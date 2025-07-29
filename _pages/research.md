@@ -5,7 +5,7 @@ permalink: /research/
 description: Sharing my research experience.
 nav: true
 nav_order: 3
-display_categories: [Natural Language Processing and Large Language Models]
+display_categories: [NLP and LLMs]
 horizontal: false
 ---
 
