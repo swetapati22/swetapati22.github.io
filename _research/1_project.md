@@ -15,7 +15,7 @@ category: Machine Learning and AI
 
 ---
 
-## **Research Paper & Resources:**
+### **Research Paper & Resources:**
 - **ACL 2025 (Findings)**: <a href="https://aclanthology.org/2025.findings-acl.677/" target="_blank">Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines</a>
 - **Research Institution**: George Mason University (GMU), NLP Lab 
 - **Research Advisor:** Dr. Ziyu Yao
@@ -28,7 +28,7 @@ category: Machine Learning and AI
 
 ---
 
-## **Tech Stack & Tools:**
+### **Tech Stack & Tools:**
 - **NLP and Machine Learning**: LLaMA-3.1-8B, LLaMA-3.2-1B, and Qwen2.5-Coder-1.5B, Hugging Face Transformers, PyTorch, LoRA Fine-Tuning, Unsloth, Quantization
 - **Data Processing**: JSON, Python (Pandas, Numpy)
 - **GPU Resources**: HPC clusters, CUDA-enabled GPUs
@@ -36,7 +36,7 @@ category: Machine Learning and AI
 
 ---
 
-## **Context & Motivation:**
+### **Context & Motivation:**
 Event Extraction (EE) is a fundamental task in information extraction but remains challenging due to:
 - Complex schemas  
 - Domain shifts  
@@ -46,7 +46,13 @@ Our work investigates how **instruction-tuned LLMs** can benefit from **structur
 
 ---
 
-## **Approach:**
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/PyCode_example.png" title="Overview of code prompt with annotation guidelines" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### **Approach:**
 
 This research explores the **enhancement of event extraction (EE) tasks** by leveraging **instruction-tuned large language models (LLMs)**. Traditional event extraction models struggle with **limited training data, ambiguous event definitions, and scalability**. To address these challenges, our approach:
 
@@ -56,6 +62,12 @@ This research explores the **enhancement of event extraction (EE) tasks** by lev
   - Examples include **positive, negative**, and **sibling event types**
   - Removes reliance on manually written guidelines
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/annotation_guidelines.png" title="Example for annotation guidelines" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+  
 - **Natural Language to Code-Based Prompt Conversion**:
     - We provide a modular conversion script that transforms **natural language event extraction data (in TextEE format)** into structured **Python `@dataclass` prompts** with embedded **annotation guidelines**.
     - Instruction prompts use:
@@ -64,7 +76,7 @@ This research explores the **enhancement of event extraction (EE) tasks** by lev
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/code_prompt.png" title="Example for a code prompt with annotation guidelines" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/code_prompt_example.png" title="Example for a code prompt with annotation guidelines" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -77,7 +89,7 @@ This work aims to improve **F1-score performance** on **event extraction tasks**
 
 ---
 
-## **Experiments:**
+### **Experiments:**
 
 We conducted evaluations on:
 - **Datasets:** ACE05 and RichERE  
@@ -86,25 +98,25 @@ We conducted evaluations on:
 
 ---
 
-## **Key Results:**
+### **Key Results:**
 
-### ACE05 (machine-generated guidelines, *no negative sampling*)
-- **Trigger Classification (TC):** +10% improvement  
-- **Argument Classification (AC):** +5% improvement  
+#### ACE05 (machine-generated guidelines, *no negative sampling*)
+    - **Trigger Classification (TC):** +10% improvement  
+    - **Argument Classification (AC):** +5% improvement  
 
-### RichERE (machine-generated guidelines, *with negative sampling*)
-- **Trigger Classification (TC):** +30% improvement  
-- **Argument Classification (AC):** +25% improvement  
+#### RichERE (machine-generated guidelines, *with negative sampling*)
+    - **Trigger Classification (TC):** +30% improvement  
+    - **Argument Classification (AC):** +25% improvement  
 
 ---
 
-## **Major Contributions**
+### **Major Contributions**
 
-### **1. Annotation Guideline Optimization**
+#### **1. Annotation Guideline Optimization**
 - Developed a structured framework for creating **high-quality event extraction annotation guidelines**.
 - Synthesized event schema covering **500+ event types** and **4000+ argument structures** using **GPT-4o**.
 
-### **2. Natural Language to Code-Based Prompt Conversion:**
+#### **2. Natural Language to Code-Based Prompt Conversion:**
 - Developed a script that translates natural language event definitions into Python @dataclass-style code prompts
 - These prompts include annotation guidelines as docstrings, making them executable and interpretable by LLMs
 - Converts event triggers and arguments into **Python-style classes**
@@ -112,19 +124,19 @@ We conducted evaluations on:
 - Supports **automatic annotation guideline integration** using synthesized or provided files
 - Generates **LLM-compatible structured prompts** for instruction tuning
 
-> This script is a core part of the pipeline that bridges textual datasets and code-style prompt learning for LLMs like LLaMA-3 and Qwen.
+- This script is a core part of the pipeline that bridges textual datasets and code-style prompt learning for LLMs like LLaMA-3 and Qwen.
 
-### **3. LLM Fine-Tuning & Optimization**
+#### **3. LLM Fine-Tuning & Optimization**
 - Implemented **Low-Rank Adaptation (LoRA)** for **fine-tuning LLaMA-3.1 8B, LLaMA-3.2-1B, and Qwen2.5-Coder-1.5B** on event extraction tasks using **unsloth** library.
 - Improved **model efficiency** using **structured regularization** techniques.
 
-### **4. Cost-Effective & Low-Latency Inference Pipelines**
+#### **4. Cost-Effective & Low-Latency Inference Pipelines**
 - Designed a **scalable NLP pipeline** using **GPU-optimized environments**.
 - Designed a **custom evaluation framework** guided by annotations for each event type for event extraction tasks as code representations.
 
 ---
 
-## **Performance Highlights:**
+### **Performance Highlights:**
 - **Machine-generated guidelines** consistently outperformed **human-written ones**.  
 - The approach **generalized well across domains, schema complexities, and model architectures**.  
 - In **low-data settings (2k)**, models with guidelines **matched or exceeded full-data baselines**.  
@@ -133,7 +145,7 @@ We conducted evaluations on:
 
 ---
 
-## **Future Work & Applications**
+### **Future Work & Applications**
 **Expanding dataset coverage** to include **multi-domain event extraction** tasks  
 **Exploring multimodal event extraction** by integrating **text, images, and video content**  
 
