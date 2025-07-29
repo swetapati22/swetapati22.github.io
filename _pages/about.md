@@ -19,7 +19,7 @@ Hello! I’m **Sweta Pati**, an **AI/ML Engineer** with **5+ years of experience
 
 ---
 
-#### What I Do (Industry & Research Experience):
+#### Industry & Research Experience:
 
 I specialize in **Machine Learning**, **LLM fine-tuning**, **RAG**, and **Agentic AI systems**, combining applied industry experience with research-backed innovation to build production-ready AI solutions.
 
@@ -34,7 +34,7 @@ I specialize in **Machine Learning**, **LLM fine-tuning**, **RAG**, and **Agenti
 #### Technical Interests & Expertise:
 
 - **Large Language Models (LLMs):**  
-  Fine-tuning and evaluation of models like **LLaMA**, **GPT**, and other **Transformer-based architectures** using techniques such as **LoRA**, instruction tuning, and prompt engineering.
+  Fine-tuning and evaluation of models like **LLaMA**, **GPT**, and other **Transformer-based architectures** using techniques such as **LoRA**, and quantization, instruction tuning, and prompt engineering.
 
 - **Generative AI & Agentic Systems:**  
   Building **RAG pipelines**, developing **Agentic AI frameworks**, and leveraging tools like **LangChain**, **Phidata**, and **agent orchestration** for intelligent task automation.
@@ -51,7 +51,7 @@ I excel at transforming unstructured data into actionable insights.
 
 #### Education:
 
-I hold a **Master’s degree in Computer Science with a specializing in Machine Learning from George Mason University**.
+I hold a **Master’s degree in Computer Science** with a **specializing in Machine Learning** from George Mason University**.
 
 --- 
 
@@ -60,3 +60,5 @@ I hold a **Master’s degree in Computer Science with a specializing in Machine 
 I’m actively pursuing **full-time opportunities** in **AI/ML**, **NLP**, or **GenAI** roles. My goal is to bring **research-backed engineering** into **real-world AI deployments** that are scalable, interpretable, and impactful.
 
 Feel free to reach out — I’d love to connect!
+
+--- 
