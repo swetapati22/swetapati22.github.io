@@ -48,7 +48,7 @@ Our work investigates how **instruction-tuned LLMs** can benefit from **structur
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/PyCode_example.png" title="Overview of code prompt with annotation guidelines" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/EE_PyCode_example.png" title="Overview of code prompt with annotation guidelines" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -64,7 +64,7 @@ This research explores the **enhancement of event extraction (EE) tasks** by lev
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/annotation_guidelines.png" title="Example for annotation guidelines" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/EE_annotation_guidelines.png" title="Example for annotation guidelines" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
   
@@ -76,7 +76,7 @@ This research explores the **enhancement of event extraction (EE) tasks** by lev
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/code_prompt_example.png" title="Example for a code prompt with annotation guidelines" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/EE_code_prompt_example.png" title="Example for a code prompt with annotation guidelines" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -142,6 +142,12 @@ We conducted evaluations on:
 - In **low-data settings (2k)**, models with guidelines **matched or exceeded full-data baselines**.  
 - **Frequent and moderately rare event types** showed notable improvement, **extremely rare types remain a challenge**.  
 - While guidelines help, we found that **machine-generated guidelines consistently outperform human-written ones**, and their **effectiveness may or may not complement negative sampling strategies**.  
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/EE_evaluation_results.png" title="Evaluation Results across different settings" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ---
 
