@@ -26,7 +26,7 @@ I specialize in **Machine Learning**, **LLM fine-tuning**, **RAG**, and **Agenti
 
 - Currently working as an **AI/ML Engineer** at **4A Consulting, LLC**, where I design **modular LLM evaluation systems**, implement **role-aware prompting strategies**, and build **scalable GenAI products** powering an **AI-driven recruitment evaluation platform** for multiple **Fortune 500 clients**.
 
-- As an **NLP Engineer** at **George Mason University**, my work on **instruction-tuning LLMs for event extraction** was accepted at **ACL 2025 (Findings)**. I optimized prompt-based EE models using **machine-generated annotation guidelines** and **Python code-style prompts** to enhance LLM generalization and performance.
+- As an **NLP Engineer** at **George Mason University**, my work on <a href="https://aclanthology.org/2025.findings-acl.677/" target="_blank">Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines</a> was accepted at **ACL 2025 (Findings)**. I optimized prompt-based EE models using **machine-generated annotation guidelines** and **Python code-style prompts** to enhance LLM generalization and performance.
 
 - Previously spent 3+ years as an **AI/ML Engineer** at **HighRadius Technologies**, where I led ML initiatives that **improved fraud detection by 12%**, **reduced Days Sales Outstanding by 30%**, and deployed robust, end-to-end pipelines for global clients like **Nestlé**, **Uber**, and **Kraft Heinz**.
 
