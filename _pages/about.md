@@ -16,17 +16,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I’m **Sweta Pati**, an **AI/ML Engineer** with **5+ years of experience** designing, deploying, and scaling solutions in **Machine Learning**, **NLP**, **Generative AI**, **RAG**, and **Agentic AI** across domains including FinTech, recruitment, and research.
+Hello! I’m **Sweta Pati**, an **AI/ML Engineer** with **5+ years of experience** designing, deploying, and scaling solutions in **Machine Learning**, **NLP**, **Generative AI**, **RAG**, and **Agentic AI** across domains including FinTech, recruitment, and academic research.
 
 ---
 
 #### Industry & Research Experience:
 
-I specialize in **Machine Learning**, **LLM fine-tuning**, **RAG**, and **Agentic AI systems**, combining applied industry experience with research-backed innovation to build production-ready AI solutions.
+I specialize in **Machine Learning**, **LLM fine-tuning**, **RAG**, and **Agentic AI systems**, industry experience with research-driven innovation to build production-ready AI solutions.
 
 - Currently working as an **AI/ML Engineer** at **4A Consulting, LLC**, where I design **modular LLM evaluation systems**, implement **role-aware prompting strategies**, and build **scalable GenAI products** powering an **AI-driven recruitment evaluation platform** for multiple **Fortune 500 clients**.
 
-- As an **NLP Engineer** at **George Mason University**, my work on <a href="https://aclanthology.org/2025.findings-acl.677/" target="_blank">Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines</a> was accepted at **ACL 2025 (Findings)**. I optimized prompt-based EE models using **machine-generated annotation guidelines** and **Python code-style prompts** to enhance LLM generalization and performance.
+- As an **NLP Engineer** at **George Mason University**, my work on <a href="https://aclanthology.org/2025.findings-acl.677/" target="_blank">instruction-tuning LLMs for event extraction using annotation guidelines</a> was accepted at **ACL 2025 (Findings)**. I optimized prompt-based EE models using **machine-generated annotation guidelines** and **Python code-style prompts** to improve generalization and performance.
 
 - Previously spent 3+ years as an **AI/ML Engineer** at **HighRadius Technologies**, where I led ML initiatives that **improved fraud detection by 12%**, **reduced Days Sales Outstanding by 30%**, and deployed robust, end-to-end pipelines for global clients like **Nestlé**, **Uber**, and **Kraft Heinz**.
 
@@ -41,10 +41,10 @@ I specialize in **Machine Learning**, **LLM fine-tuning**, **RAG**, and **Agenti
   Building **RAG pipelines**, developing **Agentic AI frameworks**, and leveraging tools like **LangChain**, **Phidata**, and **agent orchestration** for intelligent task automation.
 
 - **Machine Learning & NLP Applications:**  
-  Expertise in **classification**, **regression**, **time series forecasting**, **event extraction**, and deploying solutions for real-world problems in domains such as finance, and recruitment.
+  Expertise in **classification**, **regression**, **time series forecasting**, **event extraction**, and deploying solutions for real-world problems in domains across finance, recruitment, and other applied domains.
 
 - **MLOps & Scalable ML Engineering:**  
-  Proficient in designing **CI/CD pipelines**, deploying **FastAPI-based ML services** in **Docker containers**, and managing cloud infrastructure with **AWS**, **GCP**, and **Kubernetes** for reliable and scalable ML workflows.
+  Proficient in building **CI/CD pipelines**, deploying **FastAPI-based ML services** in **Docker containers**, and managing cloud infrastructure with **AWS**, **GCP**, and **Kubernetes** for reliable and scalable ML workflows.
 
 I excel at transforming unstructured data into actionable insights.
 
