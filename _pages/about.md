@@ -52,7 +52,7 @@ I excel at transforming unstructured data into actionable insights.
 
 #### Education:
 
-I hold a **Master’s degree in Computer Science** with a **specializing in Machine Learning** from George Mason University**.
+I hold a **Master’s degree in Computer Science** with a **specializing in Machine Learning** from **George Mason University**.
 
 --- 
 
