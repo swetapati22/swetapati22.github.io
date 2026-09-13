@@ -30,7 +30,7 @@ It covers in:
 - **Order Tracking & Analytics** using Google BigQuery  
 - **Sentiment Analysis** with Azure Text Analytics  
 
-This project **automates the entire cloud deployment lifecycle**—from **infrastructure provisioning** using Terraform to **end-to-end CI/CD deployment** and **AI-driven analytics**.
+This project **automates the entire cloud deployment lifecycle**, from **infrastructure provisioning** using Terraform to **end-to-end CI/CD deployment** and **AI-driven analytics**.
 
 ---
 

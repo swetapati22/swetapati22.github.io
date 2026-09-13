@@ -2,13 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='mailto:spati2203@gmail.com'>spati2203@gmail.com</a>. United States
+subtitle: <a href='mailto:spati2203@gmail.com'>spati2203@gmail.com</a> · Hilliard, OH · Open to relocate
 profile:
   align: right
   image: prof_pic_close.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Seeking full-time opportunities in AI/ML (currently on F1 OPT)</p>
+    <p>ML Engineer @ Central Mutual Insurance</p>
     <p><a href="/assets/pdf/Sweta_Pati_Resume.pdf" target="_blank" style="font-weight:bold;"> Resume (PDF)</a></p>
 
 news: true # includes a list of news items
@@ -16,50 +16,37 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I’m **Sweta Pati**, an **AI/ML Engineer** with **5+ years of experience** designing, deploying, and scaling solutions in **Machine Learning**, **NLP**, **Generative AI**, **RAG**, and **Agentic AI** across domains including FinTech, recruitment, and academic research.
+Hello! I'm **Sweta Pati**, an **AI/ML Engineer** with **5+ years of experience** building production **Machine Learning**, **NLP**, **Generative AI**, and **Agentic AI** systems for Fortune 500 clients across insurance, recruitment, fintech, and academic research.
 
 ---
 
-#### Industry & Research Experience:
+#### Experience
 
-I specialize in **Machine Learning**, **LLM fine-tuning**, **RAG**, and **Agentic AI systems**, industry experience with research-driven innovation to build production-ready AI solutions.
+- **ML Engineer, Central Mutual Insurance** *(Jan 2026 – Present)*: Architecting production AI systems for insurance workflows. Shipped a multi-agent Claims Leakage platform (LangChain Deep Agents on LangGraph, 8 concurrent specialist agents) that cut manual claim-review effort by 90%, with full observability via OpenTelemetry and Azure Application Insights, and built an LLM-powered document comparison pipeline (Azure Document Intelligence, GPT-4o) that cut 50–300 page rate-manual reviews from 5 days to 30 minutes across 19 lines of business.
 
-- Currently working as an **AI/ML Engineer** at **4A Consulting, LLC**, where I design **modular LLM evaluation systems**, implement **role-aware prompting strategies**, and build **scalable GenAI products** powering an **AI-driven recruitment evaluation platform** for multiple **Fortune 500 clients**.
+- **Machine Learning Engineer, 4A Consulting** *(Jun 2025 – Jan 2026)*: Built AI-driven recruitment automation: an LLM-based interview scoring pipeline that improved consistency by 30% across 100+ assessments, and a LangChain/FAISS RAG system handling 4,000+ monthly queries.
 
-- As an **NLP Engineer** at **George Mason University**, my work on <a href="https://aclanthology.org/2025.findings-acl.677/" target="_blank">instruction-tuning LLMs for event extraction using annotation guidelines</a> was accepted at **ACL 2025 (Findings)**. I optimized prompt-based EE models using **machine-generated annotation guidelines** and **Python code-style prompts** to improve generalization and performance.
+- **NLP Graduate Research Assistant, George Mason University** *(May 2024 – Jan 2025)*: Co-authored <a href="https://aclanthology.org/2025.findings-acl.677/" target="_blank">Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines</a>, accepted at **ACL 2025 (Findings)**; achieved +10% Trigger / +5% Argument F1 gains on ACE05 and RichERE by fine-tuning LLaMA-3.1/3.2 and Qwen2.5-Coder with LoRA and schema-guided instruction tuning.
 
-- Previously spent 3+ years as an **AI/ML Engineer** at **HighRadius Technologies**, where I led ML initiatives that **improved fraud detection by 12%**, **reduced Days Sales Outstanding by 30%**, and deployed robust, end-to-end pipelines for global clients like **Nestlé**, **Uber**, and **Kraft Heinz**.
-
----
-
-#### Technical Interests & Expertise:
-
-- **Large Language Models (LLMs):**  
-  Fine-tuning and evaluation of models like **LLaMA**, **GPT**, and other **Transformer-based architectures** using techniques such as **LoRA**, and quantization, instruction tuning, and prompt engineering.
-
-- **Generative AI & Agentic Systems:**  
-  Building **RAG pipelines**, developing **Agentic AI frameworks**, and leveraging tools like **LangChain**, **Phidata**, and **agent orchestration** for intelligent task automation.
-
-- **Machine Learning & NLP Applications:**  
-  Expertise in **classification**, **regression**, **time series forecasting**, **event extraction**, and deploying solutions for real-world problems in domains across finance, recruitment, and other applied domains.
-
-- **MLOps & Scalable ML Engineering:**  
-  Proficient in building **CI/CD pipelines**, deploying **FastAPI-based ML services** in **Docker containers**, and managing cloud infrastructure with **AWS**, **GCP**, and **Kubernetes** for reliable and scalable ML workflows.
-
-I excel at transforming unstructured data into actionable insights.
+- **Software Engineer II (Data Science), HighRadius Technologies** *(Jul 2019 – Aug 2023)*: Led a 10-member team delivering ML solutions for 15+ Fortune 500 clients (Kraft Heinz, Clorox, L'Oréal, Ferrero, Duracell), improving dollar recovery by 12% with fraud-detection models, on-time collections by 17%, and cutting ML deployment time by 40% via automated pipelines on AWS.
 
 ---
 
-#### Education:
+#### Technical Expertise
 
-I hold a **Master’s degree in Computer Science** with a **specializing in Machine Learning** from **George Mason University**.
+- **LLMs & Fine-Tuning:** Transformers, LoRA/QLoRA, PEFT, RLHF, quantization, instruction tuning, prompt engineering.
+- **Agentic AI & RAG:** LangChain, LangGraph, Deep Agents, MCP tools, agent evaluation & observability, retrieval-augmented generation.
+- **Machine Learning & NLP:** Classification, regression, time-series forecasting, event extraction: applied across insurance, recruitment, and fintech.
+- **MLOps & Deployment:** Docker, FastAPI, Azure (Document Intelligence, DevOps CI/CD, App Insights, Foundry), Kubernetes, MLflow, Weights & Biases.
 
---- 
+---
 
-#### Actively Seeking:
+#### Education
 
-I’m actively pursuing **full-time opportunities** in **AI/ML**, **NLP**, or **GenAI** roles. My goal is to bring **research-backed engineering** into **real-world AI deployments** that are scalable, interpretable, and impactful.
+- **M.S., Computer Science** (GPA 3.93/4), George Mason University, 2023–2025
+- **B.S., Computer Science**, KIIT University, 2016–2020
+- **Credentials:** AI Agents Fundamentals (Hugging Face) · Google AI Essentials · Fine-Tuning Large Language Models
 
-Feel free to reach out — I’d love to connect!
+---
 
---- 
+Always happy to connect; reach out via email or the links below.

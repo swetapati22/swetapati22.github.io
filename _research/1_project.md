@@ -24,7 +24,7 @@ category: Machine Learning and AI
 
 ---
 
-> ⚡ **TL;DR**: We instruction-tune LLMs for event extraction using Python code prompts and machine-generated annotation guidelines — achieving strong generalization across domains, schemas, and model sizes with minimal supervision.
+> ⚡ **TL;DR**: We instruction-tune LLMs for event extraction using Python code prompts and machine-generated annotation guidelines, achieving strong generalization across domains, schemas, and model sizes with minimal supervision.
 
 ---
 
@@ -157,4 +157,4 @@ We conducted evaluations on:
 
 ---
 
-*For collaboration or inquiries, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/sweta-pati/) or [Email](mailto:spati@gmu.edu).*
+*For collaboration or inquiries, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/sweta-pati/) or [Email](mailto:spati2203@gmail.com).*
