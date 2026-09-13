@@ -10,12 +10,12 @@ category: Data Science and Machine Learning
     ---
     Source Code available in the repository
     Github handle: swetapati22
-    Project: Re-implementing Authentic Counterhate Arguments    
+    Project: Re-implementing Authentic Counterhate Arguments
     ---
 
 Source Code: <a href="https://github.com/swetapati22/Counterhate_Arguments" target="_blank">Click here</a>
 
-**Overview**  
+**Overview**
 
 In this project, we **replicate and extend** the EMNLP 2023 paper **"Finding Authentic Counterhate Arguments: A Case Study with Public Figures"** by **Albanyan, Hassan, and Blanco**. This study focuses on identifying **authentic counterhate arguments** that effectively counter online **hate speech** targeted at specific individuals.
 
@@ -25,7 +25,7 @@ In order to have a better understanding of our work, please go through a careful
 
 ---
 
-**Project Objective**  
+**Project Objective**
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,10 +35,12 @@ In order to have a better understanding of our work, please go through a careful
 
 **Objective:** To identify **authentic counterhate arguments** that directly refute the claims made in **hateful tweets** towards specific individuals. Counterhate responses should be **logical, fact-based, and effective** in deconstructing hateful rhetoric.
 
-What is Hate Speech?  
+What is Hate Speech?
+
 > "_A hateful speech, as per Twitter guidelines, includes any implicit or explicit tweet that attacks an individual’s **gender, religion, race, ideology, or social class**._"
 
-What is Counterhate?  
+What is Counterhate?
+
 > "_Counterhate is a direct response that refutes hate speech. An **authentic counterhate argument** is a **fact-based** response that includes logical reasoning, testimonials, or statistical evidence._"
 
 This here is an example of a Hateful tweet (top) and three replies with counterhate. In this paper, the authors find authentic counterhate arguments that address the hateful claims in the tweet at hand.
@@ -51,12 +53,13 @@ This here is an example of a Hateful tweet (top) and three replies with counterh
 
 ---
 
-**Dataset Overview**  
+**Dataset Overview**
 
-Our dataset is derived from **hateful tweets** directed at **50 individuals**. It includes:  
-- 250 hateful tweets  
-- 2500 articles  
-- 54,816 paragraphs (collected as supporting evidence)  
+Our dataset is derived from **hateful tweets** directed at **50 individuals**. It includes:
+
+- 250 hateful tweets
+- 2500 articles
+- 54,816 paragraphs (collected as supporting evidence)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -66,7 +69,7 @@ Our dataset is derived from **hateful tweets** directed at **50 individuals**. I
 
 ---
 
-**Approach & Methodology**  
+**Approach & Methodology**
 
 To ensure a structured analysis, we break down the workflow into **four key stages**:
 
@@ -76,28 +79,32 @@ To ensure a structured analysis, we break down the workflow into **four key stag
     </div>
 </div>
 
-Data Preparation  
-- Loads raw tweets, paragraphs, and articles.  
-- Cleans and tokenizes text using **RoBERTa** (for paragraphs) and **Longformer** (for articles).  
-- Splits into **training, validation, and test sets**.  
+Data Preparation
 
-Model Training  
-- Fine-tunes transformers-based models on the dataset.  
-- Implements **Adaptive Learning Rate Scheduling** with **AdamW optimizer**.  
-- Trains using a **classification loss function**.  
+- Loads raw tweets, paragraphs, and articles.
+- Cleans and tokenizes text using **RoBERTa** (for paragraphs) and **Longformer** (for articles).
+- Splits into **training, validation, and test sets**.
 
-Model Evaluation  
-- Evaluates on **Precision, Recall, and F1-score**.  
-- Compares against **published results**.  
+Model Training
 
-Error Analysis & Interpretability  
-- Identifies misclassified samples to analyze weaknesses.  
-- Generates **histograms** to visualize text characteristics.  
-- Improves generalizability via error correction.  
+- Fine-tunes transformers-based models on the dataset.
+- Implements **Adaptive Learning Rate Scheduling** with **AdamW optimizer**.
+- Trains using a **classification loss function**.
+
+Model Evaluation
+
+- Evaluates on **Precision, Recall, and F1-score**.
+- Compares against **published results**.
+
+Error Analysis & Interpretability
+
+- Identifies misclassified samples to analyze weaknesses.
+- Generates **histograms** to visualize text characteristics.
+- Improves generalizability via error correction.
 
 ---
 
-**Experiments & Results**  
+**Experiments & Results**
 
 Dataset Splitting & Model Performance  
 The dataset is divided into **article-level** and **paragraph-level** experiments. We compare our model’s **precision, recall, and F1-score** against the original paper.
@@ -112,60 +119,70 @@ Our model achieves **comparable performance** to the original reported results.
 
 ---
 
-**How to Run the Project**  
+**How to Run the Project**
 
-Clone the Repository  
+Clone the Repository
+
 ```sh
 git clone https://github.com/swetapati22/Counterhate_Arguments.git
 ```
 
-Navigate to the Project Directory  
+Navigate to the Project Directory
+
 ```sh
 cd Counterhate_Arguments
 ```
 
-Install Dependencies  
+Install Dependencies
+
 ```sh
 pip install -r requirements.txt
 ```
 
-Data Preparation  
+Data Preparation
+
 ```sh
 python prepare_data.py --csv-file <path_to_csv_file> --level <level> --output-dir <output_directory>
 ```
 
-Train the Model  
+Train the Model
+
 ```sh
 python train.py --data-dir <processed_data_path> --level <level> --output-dir <output_path>
 ```
 
-Evaluate the Model  
+Evaluate the Model
+
 ```sh
 python test.py --data-dir <processed_data_path> --trained-model-dir <trained_model_path> --output-dir <output_path>
 ```
 
-Perform Error Analysis  
+Perform Error Analysis
+
 ```sh
 python error_analysis.py --data-dir <processed_data_path> --trained-model-dir <trained_model_path> --output-dir <output_path>
 ```
 
 Quick Run Scripts  
-Instead of running steps individually, execute:  
-- `article_script.sh` for **article-level** processing.  
-- `paragraph_script.sh` for **paragraph-level** processing.  
+Instead of running steps individually, execute:
 
----
-**Key Takeaways**  
-
-- **Reproducibility Validated:** Our results closely align with the original research.  
-- **Counterhate is Crucial:** Identifying **logical, evidence-backed counterhate responses** improves **online discourse**.  
-- **Future Work:** Exploring **multilingual generalization** of counterhate responses.  
+- `article_script.sh` for **article-level** processing.
+- `paragraph_script.sh` for **paragraph-level** processing.
 
 ---
 
-**Citation**  
+**Key Takeaways**
 
-If you use this work, please cite:  
+- **Reproducibility Validated:** Our results closely align with the original research.
+- **Counterhate is Crucial:** Identifying **logical, evidence-backed counterhate responses** improves **online discourse**.
+- **Future Work:** Exploring **multilingual generalization** of counterhate responses.
+
+---
+
+**Citation**
+
+If you use this work, please cite:
+
 ```
 @misc{papneja_pati_2024,
   author = {Papneja, S. and Pati, S.},
@@ -175,4 +192,3 @@ If you use this work, please cite:
   note = {GitHub Repository}
 }
 ```
-

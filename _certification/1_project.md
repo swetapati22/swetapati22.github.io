@@ -13,6 +13,7 @@ category: ML
 ---
 
 ## **📜 Certification**
+
 - **Link to view certification**: <a href="https://cdn-uploads.huggingface.co/production/uploads/noauth/mJ74PhkSBxWLP6OhlqRRs.webp" target="_blank">Hugging Face - AI Agents Course</a>
 
 <div class="row justify-content-sm-center">
@@ -24,24 +25,27 @@ category: ML
 
 ## 📘 **Covered Modules**
 
-1. **Introduction to Agents**  
-   - Understanding the core concepts behind AI Agents  
-   - Reasoning, planning, and decision-making using LLMs  
-   - The "Think → Act → Observe" agent workflow  
+1. **Introduction to Agents**
 
-2. **Tools & Actions**  
-   - How agents use external tools to perform tasks  
-   - Building, integrating, and executing actions in a real environment  
-   - Leveraging the `smolagent` framework to create your first agent  
+   - Understanding the core concepts behind AI Agents
+   - Reasoning, planning, and decision-making using LLMs
+   - The "Think → Act → Observe" agent workflow
 
-3. **Hands-on Labs**  
-   - Interactive sessions using Hugging Face Spaces  
-   - Pre-configured environments for quick experimentation and testing  
+2. **Tools & Actions**
 
-4. **Use Case Applications**  
-   - Apply agentic workflows to real-world tasks like document parsing, query handling, and search  
-   - Implement RAG pipelines and human-in-the-loop mechanisms  
+   - How agents use external tools to perform tasks
+   - Building, integrating, and executing actions in a real environment
+   - Leveraging the `smolagent` framework to create your first agent
+
+3. **Hands-on Labs**
+
+   - Interactive sessions using Hugging Face Spaces
+   - Pre-configured environments for quick experimentation and testing
+
+4. **Use Case Applications**
+   - Apply agentic workflows to real-world tasks like document parsing, query handling, and search
+   - Implement RAG pipelines and human-in-the-loop mechanisms
 
 ---
 
-*Certificate issued to Sweta Pati in April 2025.*
+_Certificate issued to Sweta Pati in April 2025._

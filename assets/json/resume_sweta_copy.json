@@ -149,12 +149,7 @@
     },
     {
       "name": "General Skills",
-      "keywords": [
-        "Data Visualization",
-        "Predictive Modeling",
-        "Data Mining",
-        "Data Analysis"
-      ]
+      "keywords": ["Data Visualization", "Predictive Modeling", "Data Mining", "Data Analysis"]
     }
   ],
   "certificates": [
